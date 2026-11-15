@@ -26,8 +26,8 @@
       "bytes": 1053
     },
     "EVIDENCE.md": {
-      "sha256": "0367fef849dd9228db0d6bffd9699309e1088cae68761b5a05b6ba2d1e93802a",
-      "bytes": 6464
+      "sha256": "69ff27050a6e5493a511d57a13caab6ef0e58dbc2caffbd909f9f0b54bd433cd",
+      "bytes": 7603
     },
     "LEGACY_EXCERPT_EDITS.json": {
       "sha256": "69b3570e2e565bbde3a66f482ae3f068792bf8e661123e1fb56e8821916f94be",
@@ -54,12 +54,12 @@
       "bytes": 9510
     },
     "README.md": {
-      "sha256": "bfe8e6c63d4cde8780cee63a2adf8ca9cb15fef0bae3f42f83f1576c35886c98",
-      "bytes": 5909
+      "sha256": "0c6d8880ecb6804c2e0605548c518d47541525dbb10e776954043c66db3caacc",
+      "bytes": 6190
     },
     "RIGHTS_INVENTORY.json": {
-      "sha256": "78f0ce47533a36de359c372d925c3d837ab33aa21bf0b80bb2ec5f4a10521400",
-      "bytes": 83689
+      "sha256": "e639b05e1c118d8fc40760e21cbfe01bcf9b078fdab52898431c16e5e1be880a",
+      "bytes": 84873
     },
     "SOURCE_EDITS.json": {
       "sha256": "3884d515e24ce36cd95891579ce1b8a5b392bf35d5a16ce1b1ed35c4bf53dfca",
@@ -874,8 +874,8 @@
       "bytes": 1517
     },
     "reproduction/README.md": {
-      "sha256": "be54ac175bf521feb4eb66ff2cd2e67db9f3edd6ce0b978d4c71542908e49a4c",
-      "bytes": 3858
+      "sha256": "bfe60999b3450153f28bc18c539c6bc34687bf1fd8c9bcdab203105b975e2452",
+      "bytes": 4553
     },
     "reproduction/STUDIES_CPU_REPRODUCE.ipynb": {
       "sha256": "6525f8efc3d2e65e0aa6c8e8ce0770e4ad357f416ea58993223516ed7d428ac2",
@@ -900,6 +900,14 @@
     "reproduction/STUDIES_V1_INTERRUPTED_CPU_REPRODUCE.executed.ipynb": {
       "sha256": "9f60487ffa89af9e0513341c79022323c5207129ef19add1a1b63413727eb7e6",
       "bytes": 43566
+    },
+    "reproduction/STUDIES_V2_CPU_EXECUTION_PROVENANCE.json": {
+      "sha256": "66bc0d71d1978540b96e9bd8bd6c9e3fb1fc9709661eed063362f240bc61921b",
+      "bytes": 22700
+    },
+    "reproduction/STUDIES_V2_CPU_REPRODUCE.executed.ipynb": {
+      "sha256": "4f7a293e7c560388db1f92d763e8f647760a888085274914d42ee69a3512ad98",
+      "bytes": 253692
     },
     "reproduction/W03H_CPU_EXECUTION_PROVENANCE.json": {
       "sha256": "03df50c7022439ec0292db7965f0207319bfdca792e36380eda3ee9c7a1daade",
@@ -928,6 +936,10 @@
     "reproduction/reproduction-inputs-w03h-v1.zip": {
       "sha256": "65dbf4c75c984c2b5461d9b3ff58c98ab0db88935d6d2b20a6f6c3e306227b38",
       "bytes": 418955
+    },
+    "reproduction/studies-public-reproduction-v2.json": {
+      "sha256": "ad4e86fd18af37b888eb7c08082226e0579ad9d014aeaf269173aa88ee9d4788",
+      "bytes": 445517
     },
     "reproduction/studies.py": {
       "sha256": "232680d6a70c0d9684e0b6828ce7371ee8486314e546bc72bc3075a3ceb0801f",
