@@ -1,0 +1,643 @@
+{
+  "rule_sha256": "537b498dd8f291a55ceb8093283de4b9871ca0561b8c05472b6babcf20683eda",
+  "clear_branch_ids": [
+    "d13--deployed--allowed",
+    "d13--threshold_only--allowed",
+    "d14--candidate--allowed",
+    "d15--candidate--allowed",
+    "d15--deployed--allowed",
+    "d16--candidate--allowed",
+    "d16--deployed--allowed",
+    "d16--threshold_only--allowed"
+  ],
+  "pending": [
+    "d12--candidate--disallowed",
+    "d12--deployed--disallowed",
+    "d12--threshold_only--disallowed"
+  ],
+  "unique_cards": 76,
+  "observed_branches": 128,
+  "allowed_topic_unique": 12,
+  "allowed_topic_branches": 16,
+  "tables": {
+    "512": {
+      "official": {
+        "technical": 51,
+        "eligible": 46,
+        "pending_technical": 0,
+        "fully_eligible_families": [],
+        "criterion_pass": false
+      },
+      "pending_best": {
+        "technical": 51,
+        "eligible": 46,
+        "pending_technical": 0,
+        "fully_eligible_families": [],
+        "criterion_pass": false
+      },
+      "clear": {
+        "technical": 51,
+        "eligible": 48,
+        "pending_technical": 0,
+        "fully_eligible_families": [
+          "d13"
+        ],
+        "criterion_pass": false
+      },
+      "clear_pending_best": {
+        "technical": 51,
+        "eligible": 48,
+        "pending_technical": 0,
+        "fully_eligible_families": [
+          "d13"
+        ],
+        "criterion_pass": false
+      },
+      "broad": {
+        "technical": 51,
+        "eligible": 48,
+        "pending_technical": 0,
+        "fully_eligible_families": [
+          "d13"
+        ],
+        "criterion_pass": false
+      },
+      "broad_pending_best": {
+        "technical": 51,
+        "eligible": 48,
+        "pending_technical": 0,
+        "fully_eligible_families": [
+          "d13"
+        ],
+        "criterion_pass": false
+      }
+    },
+    "768": {
+      "official": {
+        "technical": 103,
+        "eligible": 81,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d02",
+          "d04",
+          "d07"
+        ],
+        "criterion_pass": false
+      },
+      "pending_best": {
+        "technical": 103,
+        "eligible": 84,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d02",
+          "d04",
+          "d07",
+          "d12"
+        ],
+        "criterion_pass": false
+      },
+      "clear": {
+        "technical": 103,
+        "eligible": 88,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d02",
+          "d04",
+          "d07",
+          "d13",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "clear_pending_best": {
+        "technical": 103,
+        "eligible": 91,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d02",
+          "d04",
+          "d07",
+          "d12",
+          "d13",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad": {
+        "technical": 103,
+        "eligible": 88,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d02",
+          "d04",
+          "d07",
+          "d13",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad_pending_best": {
+        "technical": 103,
+        "eligible": 91,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d02",
+          "d04",
+          "d07",
+          "d12",
+          "d13",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      }
+    },
+    "1024": {
+      "official": {
+        "technical": 128,
+        "eligible": 105,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11"
+        ],
+        "criterion_pass": false
+      },
+      "pending_best": {
+        "technical": 128,
+        "eligible": 108,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12"
+        ],
+        "criterion_pass": false
+      },
+      "clear": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "clear_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      }
+    },
+    "1536": {
+      "official": {
+        "technical": 128,
+        "eligible": 105,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11"
+        ],
+        "criterion_pass": false
+      },
+      "pending_best": {
+        "technical": 128,
+        "eligible": 108,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12"
+        ],
+        "criterion_pass": false
+      },
+      "clear": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "clear_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      }
+    },
+    "2048": {
+      "official": {
+        "technical": 128,
+        "eligible": 105,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11"
+        ],
+        "criterion_pass": false
+      },
+      "pending_best": {
+        "technical": 128,
+        "eligible": 108,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12"
+        ],
+        "criterion_pass": false
+      },
+      "clear": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "clear_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      }
+    },
+    "3072": {
+      "official": {
+        "technical": 128,
+        "eligible": 105,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11"
+        ],
+        "criterion_pass": false
+      },
+      "pending_best": {
+        "technical": 128,
+        "eligible": 108,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12"
+        ],
+        "criterion_pass": false
+      },
+      "clear": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "clear_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad": {
+        "technical": 128,
+        "eligible": 113,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      },
+      "broad_pending_best": {
+        "technical": 128,
+        "eligible": 116,
+        "pending_technical": 3,
+        "fully_eligible_families": [
+          "d01",
+          "d02",
+          "d03",
+          "d04",
+          "d05",
+          "d06",
+          "d07",
+          "d11",
+          "d12",
+          "d13",
+          "d14",
+          "d15",
+          "d16"
+        ],
+        "criterion_pass": false
+      }
+    }
+  },
+  "scope": "Post hoc interpretation of recorded reasons; original signed judgments unchanged. No new blinded or human review.",
+  "source": {
+    "artifact_sha256": "8c5cd0e82a2f79f1d4b4f18599ad2b5d47a6676ca1682377e313de63847e45eb",
+    "member": "audit-results.json",
+    "member_sha256": "8c5cd0e82a2f79f1d4b4f18599ad2b5d47a6676ca1682377e313de63847e45eb"
+  },
+  "clear_case_ids": [
+    "d13--deployed--allowed",
+    "d13--threshold_only--allowed",
+    "d14--candidate--allowed",
+    "d15--candidate--allowed",
+    "d15--deployed--allowed",
+    "d16--candidate--allowed",
+    "d16--deployed--allowed",
+    "d16--threshold_only--allowed"
+  ]
+}

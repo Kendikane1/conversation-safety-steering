@@ -1,0 +1,678 @@
+{
+  "rule_sha256": "537b498dd8f291a55ceb8093283de4b9871ca0561b8c05472b6babcf20683eda",
+  "available_unique_cards": 66,
+  "available_branch_slots": 112,
+  "topic_allowed_unique": 7,
+  "topic_allowed_slots": 8,
+  "clear_slots": [
+    "d13--candidate--allowed",
+    "d13--deployed--allowed",
+    "d13--threshold_only--allowed"
+  ],
+  "tables": {
+    "CPU": {
+      "512": {
+        "signed": {
+          "observed": 48,
+          "technical": 28,
+          "joint": 23,
+          "joint_families": [],
+          "possible_families": [
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "clear": {
+          "observed": 48,
+          "technical": 28,
+          "joint": 25,
+          "joint_families": [],
+          "possible_families": [
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "broad": {
+          "observed": 48,
+          "technical": 28,
+          "joint": 25,
+          "joint_families": [],
+          "possible_families": [
+            "d14",
+            "d15",
+            "d16"
+          ]
+        }
+      },
+      "768": {
+        "signed": {
+          "observed": 48,
+          "technical": 40,
+          "joint": 32,
+          "joint_families": [
+            "d12"
+          ],
+          "possible_families": [
+            "d12",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "clear": {
+          "observed": 48,
+          "technical": 40,
+          "joint": 34,
+          "joint_families": [
+            "d12"
+          ],
+          "possible_families": [
+            "d12",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "broad": {
+          "observed": 48,
+          "technical": 40,
+          "joint": 34,
+          "joint_families": [
+            "d12"
+          ],
+          "possible_families": [
+            "d12",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        }
+      },
+      "1024": {
+        "signed": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 39,
+          "joint_families": [
+            "d11",
+            "d12"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "clear": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "broad": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        }
+      },
+      "1536": {
+        "signed": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 39,
+          "joint_families": [
+            "d11",
+            "d12"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "clear": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "broad": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        }
+      },
+      "2048": {
+        "signed": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 39,
+          "joint_families": [
+            "d11",
+            "d12"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "clear": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "broad": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        }
+      },
+      "3072": {
+        "signed": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 39,
+          "joint_families": [
+            "d11",
+            "d12"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "clear": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "broad": {
+          "observed": 48,
+          "technical": 48,
+          "joint": 42,
+          "joint_families": [
+            "d11",
+            "d12",
+            "d13"
+          ],
+          "possible_families": [
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        }
+      }
+    },
+    "L4": {
+      "512": {
+        "signed": {
+          "observed": 64,
+          "technical": 18,
+          "joint": 18,
+          "joint_families": [],
+          "possible_families": []
+        },
+        "clear": {
+          "observed": 64,
+          "technical": 18,
+          "joint": 18,
+          "joint_families": [],
+          "possible_families": []
+        },
+        "broad": {
+          "observed": 64,
+          "technical": 18,
+          "joint": 18,
+          "joint_families": [],
+          "possible_families": []
+        }
+      },
+      "768": {
+        "signed": {
+          "observed": 64,
+          "technical": 44,
+          "joint": 38,
+          "joint_families": [
+            "d02",
+            "d04",
+            "d07"
+          ],
+          "possible_families": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "clear": {
+          "observed": 64,
+          "technical": 44,
+          "joint": 38,
+          "joint_families": [
+            "d02",
+            "d04",
+            "d07"
+          ],
+          "possible_families": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "broad": {
+          "observed": 64,
+          "technical": 44,
+          "joint": 38,
+          "joint_families": [
+            "d02",
+            "d04",
+            "d07"
+          ],
+          "possible_families": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        }
+      },
+      "1024": {
+        "signed": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "clear": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "broad": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        }
+      },
+      "1536": {
+        "signed": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "clear": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "broad": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        }
+      },
+      "2048": {
+        "signed": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "clear": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "broad": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        }
+      },
+      "3072": {
+        "signed": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "clear": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "broad": {
+          "observed": 64,
+          "technical": 64,
+          "joint": 58,
+          "joint_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ],
+          "possible_families": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        }
+      }
+    }
+  },
+  "scope": "Post hoc interpretation of recorded reasons; original signed judgments unchanged. No new blinded or human review.",
+  "source": {
+    "artifact_sha256": "44705a9b55a4f18d496fd3baede77f121f006bc8695c05fb3f49ce9315f0fc89",
+    "member": "audit-results.json",
+    "member_sha256": "44705a9b55a4f18d496fd3baede77f121f006bc8695c05fb3f49ce9315f0fc89"
+  },
+  "clear_case_ids": [
+    "d13--candidate--allowed",
+    "d13--deployed--allowed",
+    "d13--threshold_only--allowed"
+  ]
+}

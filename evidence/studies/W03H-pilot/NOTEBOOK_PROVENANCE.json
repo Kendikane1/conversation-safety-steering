@@ -1,0 +1,651 @@
+{
+  "source_artifact_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+  "source_artifact": "16-pilot-final.ipynb",
+  "original_cell_count": 80,
+  "edited_output_cells": 3,
+  "retained_distinct_texts": 142,
+  "retained_tables": 0,
+  "cells": [
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 0,
+      "source_cell_sha256": "14bee423a2578e17b46bf05d1cdaedf7c01fb35fc9f6b438da8f753187ce19d9",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 1,
+      "source_cell_sha256": "a0234c8081b7f00876de6453ff763c18033a69880d79af80993d0ab54d99026e",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "d096c14e727a04fcece7334d95ee43f506884fab97f33666d4df89b99e79e9fb",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 2,
+      "source_cell_sha256": "96d575f8c9e74dd038d0d4a36b284a1b11a202d8cb274596a21ed962830bb123",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 3,
+      "source_cell_sha256": "7f29dcf41386b86827f5b9a72976604fdd9df3f7e62c8303ceb08a29f8237030",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "548d896d635f5358e490f113ae35d3d2c42152b4e233ca68e65ecef17b7c7a5a",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 4,
+      "source_cell_sha256": "5e6ffc8e53781672e68c2eecb16572d2abf4a02d6287e55a1d4c3e5fc886db4e",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 5,
+      "source_cell_sha256": "bc15f1ecd9c59d1cfc71183c25f2416f52cadcc9fb03089b932c928e96a7a858",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "f4d8a9806bf924a18849c0aaf226f2d6b3d55997b4b2b71e89cbc8d157cc045e",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 6,
+      "source_cell_sha256": "eec85be530307b5f4e9db4b15e3bc9d85129aeabbf443e7edda4780a6b2faaf8",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 7,
+      "source_cell_sha256": "1fe0373276dca9bc6c46925f621272b13100742489736cca8513903dd73b4919",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4ccee282b6862acc1296cbd1a59bdb436a08e2324e080b3ee993a5125c348914",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 8,
+      "source_cell_sha256": "05bc631e51301b714ff1cd10cd8a3af03483bc1a97ea3c440b3e6607bd5d6884",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 9,
+      "source_cell_sha256": "773eaf9db01ad04134da84ffa41af938a904d13db07a2ba99427d783cecbd9ee",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "72749f1dc0ce3d2dc8336dc9823c1953fd16f9590d272378d79a6b824fe7195b",
+      "original_execution_count": null,
+      "retained_output_extracts": 94,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 10,
+      "source_cell_sha256": "2e23f3e87ee9d1070e2a3f1a03e828ad7afab94f046586f13fd3e20593e7a61a",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 11,
+      "source_cell_sha256": "e3e7eb24547675c8acb728af4f7f040942190b2586c5607b654481eb12c72f70",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "d4fcc7744290118488bf986baba742f9f500219e45e5289e11223873c88a58da",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 12,
+      "source_cell_sha256": "8283a1141f05a82f3db8f46c9755ad6282487be4a513dee7715e36f7f2af7bac",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 13,
+      "source_cell_sha256": "1692cafb4caa38a2cd70a5b63c7c8f24b67d716efd60b3aab87089bebe5d9916",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "c6dbaa641163f1a4de824e22cdc7470e22a8d201ec78f70b50ca838f5171415b",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 14,
+      "source_cell_sha256": "190c62fca647aace68e17fe4662ddcd7b6dbdf1d8df4a42759c3d3c3105e8419",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 15,
+      "source_cell_sha256": "b4e1b445aadeb41968e8044024034187f4ace2c70fa674d2deff232076022b19",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "6db19ca0e9de8dbc31adf12eb86008ba4c046efa4335b031eb7a0bafeea6f657",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 16,
+      "source_cell_sha256": "992de81d796d2b00e15355f5d51c56a91a3a484cf9e23fc8f99d2c59bfaccabc",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 17,
+      "source_cell_sha256": "3443ae67b510896ec9b42092c82f929ddfc33b479490b3448fb3da6eccaf7858",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "66b72c11b8cc87c8dda404169a8fca1ca5ea7a483072e6619ca587d8af37ccdc",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 18,
+      "source_cell_sha256": "0d59ad3153f106a611a43886f08f48778d30fb0910f0f7439e90c22148e09f23",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 19,
+      "source_cell_sha256": "3204eaeb2eda44efca273743889af4482c1d159dc1efcfd67c39d80ef4792202",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "530ca8432932895d9f98ec04247ff0ad8a0865e8d0df7cfb492b5d5d8633d5ea",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 20,
+      "source_cell_sha256": "3dd4bf726a6311572a80319332cc4f773c51fff087987cd05eb9ebe2a4792a5e",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 21,
+      "source_cell_sha256": "4cda1f2b78897f3a38cc86bc193f0689d762a64c37b44dfc452cc97ccd4f86c4",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "8eee58afdb6e6665310c5268e2f7a0b9c170167a31a23d3c4a577a99ec4555d3",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 22,
+      "source_cell_sha256": "f8bc167a589758b8603efac306db936f5ace371992a7f9b31d64ef4656a241a3",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 23,
+      "source_cell_sha256": "006b90214c6c1feceb356abe0c19f2c7d513c222eb88cee013326214ee5299de",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "07a1ccf19275457faaf06a623a97a68b9905e5eaf3fcbfdab702774a34875275",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 24,
+      "source_cell_sha256": "5fdc6e6b7da695cc42f211df9622255f0c6c95410a39fc26137d3030461124a5",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 25,
+      "source_cell_sha256": "3c4ce4bf80830cc83234671817e9ce1294726b7f34bae4eb0dd9d92a1e0b0e38",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "3f71dbed9fa8665ba8bd194c76c906e53f9e4bd50e23818b7893ca4bf67fe88f",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 26,
+      "source_cell_sha256": "21a428040fc64410c4a514ebf2c656272c2c2a737781c98f3d3ac211e2a9ff2c",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 27,
+      "source_cell_sha256": "31a45642c8ca8759769db7442418ebc7c8a2be99c52ff53826e0ac43b7eb067f",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "11f0c4a25626dd0095a70e1511022e8a6031b686c9a447662288c72cfb789286",
+      "original_execution_count": null,
+      "retained_output_extracts": 1,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 28,
+      "source_cell_sha256": "5618703ba90f2ede5378b2daa90172b5c82741eeb5e61e314dfe918357621e71",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 29,
+      "source_cell_sha256": "ab7a0d3461969030621e1113c3dd8e7389bd77bdab2386c925b33a7edc42103b",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4a88891213bd8b7730d3f460173d2fd0e5c3b65c77fff9f729206fe26a21319e",
+      "original_execution_count": 16,
+      "retained_output_extracts": 142,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 30,
+      "source_cell_sha256": "4a3836a8390c5fbcd7f8c807a756ebb72f632119a5db1210475cdb8c51e14117",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 31,
+      "source_cell_sha256": "a196f51bf6f3ae5a71cc3ab4503251039379509828339b3b1d89bfaa560f3e89",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "1e30834c1a0eba3a828d6e8601a7e91cadcfafc97e8508d412ee8d11ab5ec6a7",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 32,
+      "source_cell_sha256": "fdc62e8261511b3947cdc47c1b4c49ca6a373b7928f055f7293636bed9ee727d",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 33,
+      "source_cell_sha256": "b0deaf828a4f8a8a7eb06803f4d11f6b4fadddebb5f0e802a89db840f1c5131a",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 34,
+      "source_cell_sha256": "d99231f78773f148ba74b6fc2489c95138a8c31f42368e8bd458ef4167981432",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 35,
+      "source_cell_sha256": "33f2670517616d9de92218997dc308d4209888b541ca9c50c26c061256d6fb6c",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 36,
+      "source_cell_sha256": "2129b186e1988d2f0daac7218fba8ce45684864ab69773745e219e3f94513cce",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 37,
+      "source_cell_sha256": "16b3d165662e33a2e6a613a69df54eb521e19c24c5d000d189c9f13cc83279bf",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 38,
+      "source_cell_sha256": "fe72cf379781c8bcfd90000862ab9a042427a0bb14483b3d8ca3477598abd0a6",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 39,
+      "source_cell_sha256": "b7896d80e9d9b10c74bb65a80db3e7565f2c5642b6865f19ef7fc0b5736d625d",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 40,
+      "source_cell_sha256": "d38a9730d08b914cd397afe027339c0cf0dba8fb13d99f240cb08da2ee99c2ab",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 41,
+      "source_cell_sha256": "63fb2d12fd71f84bbd88025b132aba07122b30cb9601694dbcbcf94d6e490b12",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 42,
+      "source_cell_sha256": "166f88c3c377fa6ea32c88c4e610d93fb37735cb03248c96dbb91c346446da1a",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 43,
+      "source_cell_sha256": "7b111fdf3ef53a91511730a021dc0341c42a64c1dabf4ca882aa01c418636ee5",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 44,
+      "source_cell_sha256": "d7703445bf113343485be656e4f6cf8fc275840a82e4a05ae9079893f1317bc8",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 45,
+      "source_cell_sha256": "05ee7538ada7a7e95ee3f4725549fab3ca225706664b1cf215e8355119165c03",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 46,
+      "source_cell_sha256": "2a23797982f358883a6aa7ea45612f9380fee2e0c1cbf0d90f2566352e68909b",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 47,
+      "source_cell_sha256": "ffe53e761ad6302a152ee50db94f27f691aa4f1880df040dc5aaa875b6808d38",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 48,
+      "source_cell_sha256": "0863d42849cb1ba39ff80c38dad5dc0e5e39aa6a481ddcb0b36ae268dd01ea23",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 49,
+      "source_cell_sha256": "502b1eda146d5701be90eadfeb13de4cbdf64bf0c441bc05db398cae254af2c6",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 50,
+      "source_cell_sha256": "e76d9c852d214b7c6f4493a8e0a37177953fa7c44e82282d6f8a68bc88caf919",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 51,
+      "source_cell_sha256": "1cfde744120e67c4afe2bd7a3a078d10261b6bbbb4a18e825fa7e6552082b047",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 52,
+      "source_cell_sha256": "2f544b92a4845dc82d4095e6b5f9035623d5e598c9b0dfd9672c482900ec0e1e",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 53,
+      "source_cell_sha256": "f6671eae289d5d4b7648ffa88d3e821126dff0d8c6ea711370b27c6388b80168",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 54,
+      "source_cell_sha256": "5746c7221c489839a8c5fd84b7e33713bcd26a5dbd2591e849e1c744dfd64a3b",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 55,
+      "source_cell_sha256": "82fe6f0b7afd2be610109d90a4ba9a0fb6438b4b0501c30de87cf82dc883748e",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 56,
+      "source_cell_sha256": "abde27f27ddee67ded7a259eab23b777ed34770d5d8c3ca0ac2c1b3e519ed6da",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 57,
+      "source_cell_sha256": "4c1599f00d6731a1d29ba05b0cc7093881fd306c8e439dfb32eaa852b7635ee1",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 58,
+      "source_cell_sha256": "67dffcd11088511139463bc5b36b9eac57d0c8245685b5c2bf86f59788f4475a",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 59,
+      "source_cell_sha256": "cd56b972dd8e6617f44d78761fa118c1562585e39af87051e9144e50ace0e368",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 60,
+      "source_cell_sha256": "6ae59847147fb47367f1182afa4220aa5dbcc483a0a86c6dcf7e9215d1da16e0",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 61,
+      "source_cell_sha256": "323d4da31b3a6e8bcac373f5cfabd582e9b860550e024d5a6590e79b9dc358d0",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 62,
+      "source_cell_sha256": "773b21d047d145c94622db045b9208a8eed61ea20faa1afb48399b14a278dad4",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 63,
+      "source_cell_sha256": "0ee712b7fac95da727a476699296834c7c4457706c4ad1200f978efb36127467",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 64,
+      "source_cell_sha256": "40aef32f76f807e98c8825b7d67c4aba1cc830e7085de42675a31fe7fff97ef4",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 65,
+      "source_cell_sha256": "97ccdc9baf11f70a18354e6ca98c217304dc670145845aa4df30b1290ced8ebb",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 66,
+      "source_cell_sha256": "ef88363c97c3ddbb913a724844087c257efb539b81edb2c8a360a13678728c91",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 67,
+      "source_cell_sha256": "dd7e043ed76a5e64eb3643fc25e49c8df2df48e1bc300a9b63b8e43f2c5ad1ef",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 68,
+      "source_cell_sha256": "0b52cb03aed82ee4683cb88841658f20868669ca299c7c6590347a8bf72fa575",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 69,
+      "source_cell_sha256": "8c0e3489fe41088711b7e7cd4a05a0ef011a8a71e9efd542b844e34d39d48628",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 70,
+      "source_cell_sha256": "0d5b9c0fedf641f159cfcc40522ee759e2a0f8e7f547e66aed0e1549401ec0b1",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 71,
+      "source_cell_sha256": "cfbaa26df39a5d1fbbabf04a6f80eda838288a6bb37598332cf7442e668f4e7f",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 72,
+      "source_cell_sha256": "c8902d3247f850a756e09d6d0bd297cfce3daff52983e8c790d186a3c7b1589b",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 73,
+      "source_cell_sha256": "0f773cbd6cd4e36c7f5b42f14e57b547c40aea979d6e83cdcaf85274fc4e8d04",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 74,
+      "source_cell_sha256": "edb35e0782db46d3ffac9ef6cc8d6be3c74d7282aadd08cc1a326e9c9dcd03a9",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 75,
+      "source_cell_sha256": "eac1d58bca9d43777b51acb390b40ddcf9fab2c32378fcb932290271fb84e82c",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 76,
+      "source_cell_sha256": "e413df194be2dee3040c8df7f3240835c5d6936f0c257f758885ee542690987d",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 77,
+      "source_cell_sha256": "f214e5640267e580686519986cc0d27c2925e07eac17ef82a5d6647ad9069b5b",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 78,
+      "source_cell_sha256": "8904c432da7a436e0f6defa948b3f109b27cf3308e8cafa2679b62b652955efa",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "af5e68aa8c66c12b29e991b0cebcd85ccf9f99f61a92825f522573c25f37e234",
+      "source_cell_index": 79,
+      "source_cell_sha256": "fcb072f7673b4b787344bff72cf1ba08f815f468c4e65f79db7d4330622895e6",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    }
+  ],
+  "execution": "Not executed; static edited extracts of actual saved outputs only"
+}

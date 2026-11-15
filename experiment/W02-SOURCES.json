@@ -1,0 +1,20 @@
+{
+  "source": "Accepted package members and matched cleared notebook. The working tree was dirty; no validated W02 Git commit was assigned.",
+  "package_sha256": "9fb336359bed98778a6a0e59a970075959e6cb6e4feec67bff80a74ab2c648ec",
+  "receipt_sha256": "dfdd1a1e363f99b496cfb0ae675b10b09f91b5a233a5fc71fd83a2f4bf976e04",
+  "files": {
+    "colab/gate_readout_comparison_v1.ipynb": "e5247b33e087566748dad89703c00b62834a6722f34790cd03cefeafcf7f19c4",
+    "colab/readout_analysis.py": "12e8e6ac2008aa570483725dd6440cfe5f02dc09ee0739a039be84004060f189",
+    "colab/readout_artifacts.py": "feff564c93dddd3ca51eee5e33fa5a8e88960a0a86636f7f6aebb67d6bccd793",
+    "colab/readout_launcher.py": "64b7191ae864d8ba8d71b21457b85081e76e6e8a984769e7223d7e26acd02bf7",
+    "colab/readout_model.py": "6881aa5d5e6d0476b51047216790d5c9495e8d8ff236630a6066d960d2fd1cc7",
+    "colab/readout_parent.py": "39d1f12bdfd0bc547d20411ec46bb1cb7329803db3c2480208edb5e821da33f8",
+    "colab/readout_runner.py": "d8db5a709232f12a9993d5a0eac3ae509a4729d10c2550664b177742dbaf84d6",
+    "colab/readout_science.py": "4239cfd7e4fc8dc4cd20348cf42a38af1c4ff8bec01964dd5ac610536bf2fb35",
+    "colab/readout_view.py": "3f1bd4661dfb2ef4af4475675d1557649e18dad36687e35288e1e0e50017a14a",
+    "configs/w02_readout_v1.json": "6b0364dcdfe75b835072c77d98bd97746dbfe60acb673a732de57cc8da16af31",
+    "configs/fixtures/w02_calibration.jsonl": "146cc86a7ea225ad2b02b4c671ce30c3798dc18c8ca5513287ed561a2a593389",
+    "configs/fixtures/w02_split.json": "e4074d175582e6e3537e27a9562e499e728a855063969218f8a4cf07d030ef92",
+    "docs/W02_READOUT_RUBRIC.md": "8b432e94e690880713672123dc08081c29e201c7244ba6f82f5f37c94a85ae61"
+  }
+}

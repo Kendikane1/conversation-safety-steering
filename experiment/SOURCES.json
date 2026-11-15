@@ -1,0 +1,188 @@
+{
+  "git_commit": "8a67433bf30c74f15317842278d06c0fee9bfccf",
+  "matched_transfer_sha256": "a6a1aa1d1d7680b5a5cf9d72e26bac1e731e5ecfbc15019d1e39e1d2b6a06f88",
+  "files": [
+    {
+      "path": "colab/conversation_diagnostic_v1.ipynb",
+      "git_blob": "9e548e9f79dfec949346c4bc8425ea4ae57a23e7",
+      "sha256": "c6d98b02e3c2a4788fdc2978c530bc8c6be018f3c6514e32efc072013219c450",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_state.py",
+      "git_blob": "cfaee527a1d6583c4b75c114dada25952ce294fb",
+      "sha256": "c008dc0167a71664fe6d54f5ff757e054250914d5c35fab9f46fc39e8a1198c8",
+      "matched_transfer_member": "conversation_state.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_model.py",
+      "git_blob": "65035d26b8be1dfdbf9a43b033bf9092689fe25a",
+      "sha256": "abf45c6aa261532656e45782c1299ba79af6cde252e116b7916090fdc28d475d",
+      "matched_transfer_member": "conversation_model.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_compute.py",
+      "git_blob": "1dcf5d48aa4bdaf3df6cdf2237ffc158d50981d4",
+      "sha256": "0dc3dbcd54409d867a853d5725bd7280fa671d7588a06504d43691119cc1a311",
+      "matched_transfer_member": "conversation_compute.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_review.py",
+      "git_blob": "6915efc9df24b8863d9a0c05cbb84453cfbab54e",
+      "sha256": "25aa8138d2c9c6d301a8e0bedc13d8f4bf3737e420f962cbf89e31d2cb86d4cb",
+      "matched_transfer_member": "conversation_review.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_environment.py",
+      "git_blob": "df66924045139dc2dd86a637e219efbb2719526b",
+      "sha256": "f8c08df0360ef4ac7dd1382ead5ff9cae515eee27e8ddd6b651639245e70b1f7",
+      "matched_transfer_member": "conversation_environment.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_artifacts.py",
+      "git_blob": "43ab3e0832ebb89e6e3ed4fca14d6692dfb5a66c",
+      "sha256": "9b16172015d04569e033a24b230cfa82fbccc25d3a41d1863a9f66fe0222ac0c",
+      "matched_transfer_member": "conversation_artifacts.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_runner.py",
+      "git_blob": "9d988e675482b5d52f6d10d57614002cd74b946b",
+      "sha256": "013c609f6aa1506aedb35350431b2a7255f575f22bef384af818068d48b84290",
+      "matched_transfer_member": "conversation_runner.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_launcher.py",
+      "git_blob": "2687e14617dfa134ff3e0a720c8564b534ac4ace",
+      "sha256": "ca5cd68517cf49fde9ab6f76739b445a841d3c23f0087dd4de80031a42646558",
+      "matched_transfer_member": "conversation_launcher.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "colab/conversation_view.py",
+      "git_blob": "dc3a32602245239122301fcaf055a68a3462adb1",
+      "sha256": "34fc2d529e251dfea0afc3f4ecdc4b25eabd6ab77e6270ecbbe29553f45b53f4",
+      "matched_transfer_member": "conversation_view.py",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "src/lexsi_track2/__init__.py",
+      "git_blob": "77e9f81ded99a47854d891eca011eae103fa9605",
+      "sha256": "489a2d6000ec9c00d8bc29e8ec221d11b2d82343503b5b26e15b5a336e680fbe",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "src/lexsi_track2/contracts.py",
+      "git_blob": "3a6ef57dd5f864f45ea629ed2c7a2d1cfb8e1fec",
+      "sha256": "b16e6988dbf9b2676dc1a1f84056f1e04e0550fc66c8eaae835f2a7cf92f5012",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "src/lexsi_track2/observe.py",
+      "git_blob": "4419c71d78ef17cad0ce5fb6eb229ef24086ec5c",
+      "sha256": "98eab305461c0409fd0921b0949c00ef528569ceeec7dd3ff757f1177fa9ad03",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "src/lexsi_track2/review.py",
+      "git_blob": "1f02817b2c315a57c7f81e27ba9e15180f37b8e4",
+      "sha256": "d2ec14dd4d6be3c3e6ac182806cb861a1ccb6f002f728da8a844230b5076ee9d",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "src/lexsi_track2/runtime.py",
+      "git_blob": "6217b9857a416c25aae91b8f15266a4a0789c88b",
+      "sha256": "809a56968fa00437f434dec2099061f0520a15191334b24d18f82236b9f73dd5",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "src/lexsi_track2/setup.py",
+      "git_blob": "b764d4ffc37bd653d3e0746212165182da24d536",
+      "sha256": "353da4172bf98b809c9e073ca1b5789e1d468490b4c34ea270a8b7ac3b5aa256",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "src/lexsi_track2/tokenizer_validation.py",
+      "git_blob": "d70c249d8f08275b40f3f5c7e5132778344a8999",
+      "sha256": "c3535904641cb8c001fdb66fad09958ffb6a286d3e8125d5b331627e7c13004f",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "configs/w01_conversation_v1.json",
+      "git_blob": "d887d9f59d517865cf9f39fc9e4d03af784482a8",
+      "sha256": "f3aa98d4d172a3f11592ae03e608cd2be5f47dbd4adaf90c4ba549c8022cfc82",
+      "matched_transfer_member": "w01_conversation_v1.json",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "configs/w01_baseline.json",
+      "git_blob": "4ab00f1c8403350a9892ce2509713e04da575a10",
+      "sha256": "9678c3101703860301e1417c971456a32721090e50607ba1b882b88c356cff93",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "configs/w01_sources.json",
+      "git_blob": "5dfc6cb0a0a001f53edc17e57c3bd32eca19675c",
+      "sha256": "de4b8cea4a4199c14035670b49e2cc9f68bfe31e1af665d24105969eac9748d4",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "configs/fixtures/w01_diagnostic.jsonl",
+      "git_blob": "f3c79ff7b2493e4165b14be1ff8b1524c3c754b6",
+      "sha256": "5dab123ea301c5ece60b788a8ec2a08c469777c4ebf031098367950c769854b5",
+      "matched_transfer_member": "w01_diagnostic.jsonl",
+      "distribution": "Project-authored input data; owner data terms pending"
+    },
+    {
+      "path": "configs/fixtures/w01_extraction.jsonl",
+      "git_blob": "f60298bf25371bebec9b51852997a84aeba75eb2",
+      "sha256": "4a587dcd81986ab694afc05edc5989cec0e9b9bf9e37c9f6f3c2e5c75b85d122",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored input data; owner data terms pending"
+    },
+    {
+      "path": "configs/fixtures/w01_development.jsonl",
+      "git_blob": "8d676471b14cee40a2604666a5656db656239508",
+      "sha256": "1b824373fda7ff71df00885234f113b69c244d2d777a3613f983ca16b8f8798d",
+      "matched_transfer_member": null,
+      "distribution": "Project-authored input data; owner data terms pending"
+    },
+    {
+      "path": "docs/W01_RUBRIC.md",
+      "git_blob": "59c94b4f6f508e79902a47785eb2ed7d02e67733",
+      "sha256": "ea071b1d1ca98e700a323f1dcdb37fc40a356337cab1ec6774b66195a56d5bad",
+      "matched_transfer_member": "W01_RUBRIC.md",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "docs/W01_CONVERSATION_RUBRIC.md",
+      "git_blob": "dbf6a1625072d38db82f4fd24c26b60a4eb4622b",
+      "sha256": "8d18da8b7de277898a346d5f49a4ac67471a4b7bffa8598b14feb36a2a04fcc9",
+      "matched_transfer_member": "W01_CONVERSATION_RUBRIC.md",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    },
+    {
+      "path": "docs/W01_LENGTH_RUBRIC.md",
+      "git_blob": "5ca0a1a51e97b22b9eceecdd767636e3edbe4c03",
+      "sha256": "7a258545d70660902a7c30c9b99ea4b1ab071950d83cdf3496844b5f261488d0",
+      "matched_transfer_member": "W01_LENGTH_RUBRIC.md",
+      "distribution": "Project-authored source or rubric; owner terms pending"
+    }
+  ]
+}

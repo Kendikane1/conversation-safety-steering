@@ -1,0 +1,169 @@
+{
+  "completed_writers": 48,
+  "confirmation_calls": 0,
+  "confirmed": false,
+  "coverage_nominee": null,
+  "disposition": "no selection",
+  "families_sha256": "ae858222ed5879cf404c76e78573559ae3a92f68b4ee04716da0fc8fb9393e52",
+  "final_receipt_sha256": "ee209d96f2a67b76b8894b0080a9e85b2a0c3328b6e104721ad40d6332fd1c80",
+  "grid": {
+    "1024": {
+      "all": {
+        "measured": 128,
+        "planned": 128,
+        "technical": 128,
+        "usable": 105
+      },
+      "authored": {
+        "measured": 32,
+        "planned": 32,
+        "technical": 32,
+        "usable": 32
+      },
+      "generated": {
+        "measured": 96,
+        "planned": 96,
+        "technical": 96,
+        "usable": 73
+      },
+      "joint_families": 8,
+      "supported": true,
+      "technical_families": 16,
+      "technically_eligible_review_excluded": 20,
+      "technically_eligible_review_unsettled": 3
+    },
+    "1536": {
+      "all": {
+        "measured": 128,
+        "planned": 128,
+        "technical": 128,
+        "usable": 105
+      },
+      "authored": {
+        "measured": 32,
+        "planned": 32,
+        "technical": 32,
+        "usable": 32
+      },
+      "generated": {
+        "measured": 96,
+        "planned": 96,
+        "technical": 96,
+        "usable": 73
+      },
+      "joint_families": 8,
+      "supported": true,
+      "technical_families": 16,
+      "technically_eligible_review_excluded": 20,
+      "technically_eligible_review_unsettled": 3
+    },
+    "2048": {
+      "all": {
+        "measured": 128,
+        "planned": 128,
+        "technical": 128,
+        "usable": 105
+      },
+      "authored": {
+        "measured": 32,
+        "planned": 32,
+        "technical": 32,
+        "usable": 32
+      },
+      "generated": {
+        "measured": 96,
+        "planned": 96,
+        "technical": 96,
+        "usable": 73
+      },
+      "joint_families": 8,
+      "supported": true,
+      "technical_families": 16,
+      "technically_eligible_review_excluded": 20,
+      "technically_eligible_review_unsettled": 3
+    },
+    "3072": {
+      "all": {
+        "measured": 128,
+        "planned": 128,
+        "technical": 128,
+        "usable": 105
+      },
+      "authored": {
+        "measured": 32,
+        "planned": 32,
+        "technical": 32,
+        "usable": 32
+      },
+      "generated": {
+        "measured": 96,
+        "planned": 96,
+        "technical": 96,
+        "usable": 73
+      },
+      "joint_families": 8,
+      "supported": true,
+      "technical_families": 16,
+      "technically_eligible_review_excluded": 20,
+      "technically_eligible_review_unsettled": 3
+    },
+    "512": {
+      "all": {
+        "measured": 128,
+        "planned": 128,
+        "technical": 51,
+        "usable": 46
+      },
+      "authored": {
+        "measured": 32,
+        "planned": 32,
+        "technical": 32,
+        "usable": 32
+      },
+      "generated": {
+        "measured": 96,
+        "planned": 96,
+        "technical": 19,
+        "usable": 14
+      },
+      "joint_families": 0,
+      "supported": true,
+      "technical_families": 2,
+      "technically_eligible_review_excluded": 5,
+      "technically_eligible_review_unsettled": 0
+    },
+    "768": {
+      "all": {
+        "measured": 128,
+        "planned": 128,
+        "technical": 103,
+        "usable": 81
+      },
+      "authored": {
+        "measured": 32,
+        "planned": 32,
+        "technical": 32,
+        "usable": 32
+      },
+      "generated": {
+        "measured": 96,
+        "planned": 96,
+        "technical": 71,
+        "usable": 49
+      },
+      "joint_families": 3,
+      "supported": true,
+      "technical_families": 10,
+      "technically_eligible_review_excluded": 19,
+      "technically_eligible_review_unsettled": 3
+    }
+  },
+  "model_revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "natural_writer_stops": 48,
+  "output_limit": 1024,
+  "planned_families": 16,
+  "protocol_sha256": "5471d23f08f0ae1f4d32611c69a879f6bb80497079869021ac5bc17a58f5dae6",
+  "source_zip_sha256": "cbbe22651476963e48af03c8ce7e8caf81cdf3c745111de6f540cf90c6ef6d2a",
+  "study": "W03G L4 generated-history feasibility",
+  "writer_tokens": 11327
+}

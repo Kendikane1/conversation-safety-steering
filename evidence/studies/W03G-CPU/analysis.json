@@ -1,0 +1,3966 @@
+{
+  "kind": "Observed backend-specific feasibility in two disjoint fixed strata",
+  "source": {
+    "archive_sha256": "5242390e05e384a26fd48dec74dacb9cd7edecb5672dab0d39d0ce6a41179b23",
+    "index_sha256": "58b65c024047d9d1d29b41f0f15ec031b1d40aeb3d89f227f2d534d128aa610e",
+    "freeze_sha256": "6a27215a51e039b40d107b0e44eaa3bd197e6bf8e706837aee9475dcdb550c72",
+    "implementation": {
+      "admit.py": "3e8a32eab825ecf9d4a29b60197e625a0916da13ccb0c9a97064a2d4787dfb57",
+      "cpu_model.py": "04a8aca3ca7a87c707367b955ff3b9b94bede3aa9c2b04b6f8d01af889d2c0af",
+      "inference.py": "d41e2dd6a8da9f4010e076a8f5edf2ca32f6e7661514530d80ab03aa7d297237",
+      "setup_and_run.py": "541ff4dff9a70bbfbface38f96192045741990839dcf5df0005ff5e8789cdb9c",
+      "worker.py": "0219eb8bb7cbcb8d61550e355f4237066f6922b120a4756259452dbbe624fe02"
+    },
+    "rows": 16,
+    "planned": 24,
+    "contexts": 64,
+    "observed_generated_contexts": 32,
+    "backend": "CPU BF16 SDPA",
+    "synthetic": false,
+    "no_formal_cap": true,
+    "source_l4_sha256": "6ccf1d8fb47830e302d254090e00cc99ab6d960971df33a48232ae0d2fc63909"
+  },
+  "cpu_writer_report": {
+    "charged": 16,
+    "efficacy_authorized": false,
+    "l4_writers": 24,
+    "planned": 24,
+    "planned_families": 8,
+    "pooled": false,
+    "proposed_common_limit": null,
+    "records": 16,
+    "semantic_eligibility": "not yet reviewed",
+    "study": "W03G CPU writer suffix",
+    "successful": 16,
+    "technical_grid": {
+      "1024": {
+        "all_three_writers_both_branches_fitting_families": 5,
+        "both_branches_fitting_writers": 16,
+        "per_branch_fitting_writers": {
+          "allowed": 16,
+          "disallowed": 16
+        }
+      },
+      "1536": {
+        "all_three_writers_both_branches_fitting_families": 5,
+        "both_branches_fitting_writers": 16,
+        "per_branch_fitting_writers": {
+          "allowed": 16,
+          "disallowed": 16
+        }
+      },
+      "2048": {
+        "all_three_writers_both_branches_fitting_families": 5,
+        "both_branches_fitting_writers": 16,
+        "per_branch_fitting_writers": {
+          "allowed": 16,
+          "disallowed": 16
+        }
+      },
+      "3072": {
+        "all_three_writers_both_branches_fitting_families": 5,
+        "both_branches_fitting_writers": 16,
+        "per_branch_fitting_writers": {
+          "allowed": 16,
+          "disallowed": 16
+        }
+      },
+      "512": {
+        "all_three_writers_both_branches_fitting_families": 1,
+        "both_branches_fitting_writers": 6,
+        "per_branch_fitting_writers": {
+          "allowed": 6,
+          "disallowed": 6
+        }
+      },
+      "768": {
+        "all_three_writers_both_branches_fitting_families": 3,
+        "both_branches_fitting_writers": 12,
+        "per_branch_fitting_writers": {
+          "allowed": 12,
+          "disallowed": 12
+        }
+      }
+    },
+    "unclaimed": 8,
+    "unresolved": []
+  },
+  "reused_masked_materials": 26,
+  "fresh_isolated_single_card_readers": 4,
+  "cpu_labels_by_status": {
+    "reviewed": 30
+  },
+  "grid": {
+    "512": {
+      "CPU_suffix_d09_d16": {
+        "all": {
+          "planned": 64,
+          "measured": 48,
+          "technical": 28,
+          "observed_joint": 23,
+          "attainable_joint": [
+            23,
+            39
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            3
+          ],
+          "complete_family_ids": []
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d10",
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 32,
+          "technical": 12,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            23
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            3
+          ],
+          "complete_family_ids": []
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 2,
+          "observed_joint": 1,
+          "attainable_joint": [
+            1,
+            7
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            3
+          ],
+          "complete_family_ids": []
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 4,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            3
+          ],
+          "complete_family_ids": []
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 12,
+          "technical": 6,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            1,
+            3
+          ],
+          "complete_family_ids": [
+            "d14"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 14,
+          "observed_joint": 12,
+          "attainable_joint": [
+            12,
+            20
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            1,
+            4
+          ],
+          "complete_family_ids": [
+            "d10"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 14,
+          "observed_joint": 11,
+          "attainable_joint": [
+            11,
+            19
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            3
+          ],
+          "complete_family_ids": []
+        },
+        "family/d09": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d10": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d11": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d12": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d13": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 6,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            4
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d14": {
+          "planned": 8,
+          "measured": 4,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d15": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d16": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        }
+      },
+      "L4_prefix_d01_d08": {
+        "all": {
+          "planned": 64,
+          "measured": 64,
+          "technical": 18,
+          "observed_joint": 18,
+          "attainable_joint": [
+            18,
+            18
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07",
+            "d08"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 48,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 0,
+          "observed_joint": 0,
+          "attainable_joint": [
+            0,
+            0
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d06"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 0,
+          "observed_joint": 0,
+          "attainable_joint": [
+            0,
+            0
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 9,
+          "observed_joint": 9,
+          "attainable_joint": [
+            9,
+            9
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 9,
+          "observed_joint": 9,
+          "attainable_joint": [
+            9,
+            9
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d01": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d02": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d03": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d04": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d05": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d06": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            4
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d07": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d08": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        }
+      }
+    },
+    "768": {
+      "CPU_suffix_d09_d16": {
+        "all": {
+          "planned": 64,
+          "measured": 48,
+          "technical": 40,
+          "observed_joint": 32,
+          "attainable_joint": [
+            32,
+            48
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            1,
+            4
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d10",
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 32,
+          "technical": 24,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            32
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            1,
+            4
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 6,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            10
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            1,
+            4
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            11
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            1,
+            4
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 12,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            11
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            4
+          ],
+          "complete_family_ids": [
+            "d12",
+            "d14"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 20,
+          "observed_joint": 15,
+          "attainable_joint": [
+            15,
+            23
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d10",
+            "d12"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 20,
+          "observed_joint": 17,
+          "attainable_joint": [
+            17,
+            25
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d12"
+          ]
+        },
+        "family/d09": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d10": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d11": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d12": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "family/d13": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 6,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            4
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d14": {
+          "planned": 8,
+          "measured": 4,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d15": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d16": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        }
+      },
+      "L4_prefix_d01_d08": {
+        "all": {
+          "planned": 64,
+          "measured": 64,
+          "technical": 44,
+          "observed_joint": 38,
+          "attainable_joint": [
+            38,
+            38
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            3
+          ],
+          "complete_family_ids": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07",
+            "d08"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 48,
+          "technical": 28,
+          "observed_joint": 22,
+          "attainable_joint": [
+            22,
+            22
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            3
+          ],
+          "complete_family_ids": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 8,
+          "observed_joint": 6,
+          "attainable_joint": [
+            6,
+            6
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            3
+          ],
+          "complete_family_ids": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 12,
+          "observed_joint": 10,
+          "attainable_joint": [
+            10,
+            10
+          ],
+          "complete_joint_families": 5,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            5,
+            5
+          ],
+          "complete_family_ids": [
+            "d02",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 8,
+          "observed_joint": 6,
+          "attainable_joint": [
+            6,
+            6
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            3
+          ],
+          "complete_family_ids": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 22,
+          "observed_joint": 19,
+          "attainable_joint": [
+            19,
+            19
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            3
+          ],
+          "complete_family_ids": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 22,
+          "observed_joint": 19,
+          "attainable_joint": [
+            19,
+            19
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            3
+          ],
+          "complete_family_ids": [
+            "d02",
+            "d04",
+            "d07"
+          ]
+        },
+        "family/d01": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d02": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d02"
+          ]
+        },
+        "family/d03": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d04": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d04"
+          ]
+        },
+        "family/d05": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            4
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d06": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            4
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d07": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d07"
+          ]
+        },
+        "family/d08": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        }
+      }
+    },
+    "1024": {
+      "CPU_suffix_d09_d16": {
+        "all": {
+          "planned": 64,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 39,
+          "attainable_joint": [
+            39,
+            55
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d10",
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 23,
+          "attainable_joint": [
+            23,
+            39
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 12,
+          "technical": 12,
+          "observed_joint": 9,
+          "attainable_joint": [
+            9,
+            13
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12",
+            "d14"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 18,
+          "attainable_joint": [
+            18,
+            26
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            6
+          ],
+          "complete_family_ids": [
+            "d10",
+            "d11",
+            "d12"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 21,
+          "attainable_joint": [
+            21,
+            29
+          ],
+          "complete_joint_families": 4,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            4,
+            7
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d11",
+            "d12",
+            "d13"
+          ]
+        },
+        "family/d09": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d10": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d11": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d11"
+          ]
+        },
+        "family/d12": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "family/d13": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d14": {
+          "planned": 8,
+          "measured": 4,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d15": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d16": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        }
+      },
+      "L4_prefix_d01_d08": {
+        "all": {
+          "planned": 64,
+          "measured": 64,
+          "technical": 64,
+          "observed_joint": 58,
+          "attainable_joint": [
+            58,
+            58
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07",
+            "d08"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 42,
+          "attainable_joint": [
+            42,
+            42
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "family/d01": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d01"
+          ]
+        },
+        "family/d02": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d02"
+          ]
+        },
+        "family/d03": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d03"
+          ]
+        },
+        "family/d04": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d04"
+          ]
+        },
+        "family/d05": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d05"
+          ]
+        },
+        "family/d06": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d06"
+          ]
+        },
+        "family/d07": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d07"
+          ]
+        },
+        "family/d08": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        }
+      }
+    },
+    "1536": {
+      "CPU_suffix_d09_d16": {
+        "all": {
+          "planned": 64,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 39,
+          "attainable_joint": [
+            39,
+            55
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d10",
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 23,
+          "attainable_joint": [
+            23,
+            39
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 12,
+          "technical": 12,
+          "observed_joint": 9,
+          "attainable_joint": [
+            9,
+            13
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12",
+            "d14"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 18,
+          "attainable_joint": [
+            18,
+            26
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            6
+          ],
+          "complete_family_ids": [
+            "d10",
+            "d11",
+            "d12"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 21,
+          "attainable_joint": [
+            21,
+            29
+          ],
+          "complete_joint_families": 4,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            4,
+            7
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d11",
+            "d12",
+            "d13"
+          ]
+        },
+        "family/d09": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d10": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d11": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d11"
+          ]
+        },
+        "family/d12": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "family/d13": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d14": {
+          "planned": 8,
+          "measured": 4,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d15": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d16": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        }
+      },
+      "L4_prefix_d01_d08": {
+        "all": {
+          "planned": 64,
+          "measured": 64,
+          "technical": 64,
+          "observed_joint": 58,
+          "attainable_joint": [
+            58,
+            58
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07",
+            "d08"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 42,
+          "attainable_joint": [
+            42,
+            42
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "family/d01": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d01"
+          ]
+        },
+        "family/d02": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d02"
+          ]
+        },
+        "family/d03": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d03"
+          ]
+        },
+        "family/d04": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d04"
+          ]
+        },
+        "family/d05": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d05"
+          ]
+        },
+        "family/d06": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d06"
+          ]
+        },
+        "family/d07": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d07"
+          ]
+        },
+        "family/d08": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        }
+      }
+    },
+    "2048": {
+      "CPU_suffix_d09_d16": {
+        "all": {
+          "planned": 64,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 39,
+          "attainable_joint": [
+            39,
+            55
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d10",
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 23,
+          "attainable_joint": [
+            23,
+            39
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 12,
+          "technical": 12,
+          "observed_joint": 9,
+          "attainable_joint": [
+            9,
+            13
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12",
+            "d14"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 18,
+          "attainable_joint": [
+            18,
+            26
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            6
+          ],
+          "complete_family_ids": [
+            "d10",
+            "d11",
+            "d12"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 21,
+          "attainable_joint": [
+            21,
+            29
+          ],
+          "complete_joint_families": 4,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            4,
+            7
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d11",
+            "d12",
+            "d13"
+          ]
+        },
+        "family/d09": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d10": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d11": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d11"
+          ]
+        },
+        "family/d12": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "family/d13": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d14": {
+          "planned": 8,
+          "measured": 4,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d15": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d16": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        }
+      },
+      "L4_prefix_d01_d08": {
+        "all": {
+          "planned": 64,
+          "measured": 64,
+          "technical": 64,
+          "observed_joint": 58,
+          "attainable_joint": [
+            58,
+            58
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07",
+            "d08"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 42,
+          "attainable_joint": [
+            42,
+            42
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "family/d01": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d01"
+          ]
+        },
+        "family/d02": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d02"
+          ]
+        },
+        "family/d03": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d03"
+          ]
+        },
+        "family/d04": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d04"
+          ]
+        },
+        "family/d05": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d05"
+          ]
+        },
+        "family/d06": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d06"
+          ]
+        },
+        "family/d07": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d07"
+          ]
+        },
+        "family/d08": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        }
+      }
+    },
+    "3072": {
+      "CPU_suffix_d09_d16": {
+        "all": {
+          "planned": 64,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 39,
+          "attainable_joint": [
+            39,
+            55
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d10",
+            "d11",
+            "d12",
+            "d13",
+            "d14",
+            "d15",
+            "d16"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 23,
+          "attainable_joint": [
+            23,
+            39
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 10,
+          "technical": 10,
+          "observed_joint": 7,
+          "attainable_joint": [
+            7,
+            13
+          ],
+          "complete_joint_families": 2,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            2,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 12,
+          "technical": 12,
+          "observed_joint": 9,
+          "attainable_joint": [
+            9,
+            13
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            5
+          ],
+          "complete_family_ids": [
+            "d11",
+            "d12",
+            "d14"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 18,
+          "attainable_joint": [
+            18,
+            26
+          ],
+          "complete_joint_families": 3,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            3,
+            6
+          ],
+          "complete_family_ids": [
+            "d10",
+            "d11",
+            "d12"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 24,
+          "technical": 24,
+          "observed_joint": 21,
+          "attainable_joint": [
+            21,
+            29
+          ],
+          "complete_joint_families": 4,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            4,
+            7
+          ],
+          "complete_family_ids": [
+            "d09",
+            "d11",
+            "d12",
+            "d13"
+          ]
+        },
+        "family/d09": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d10": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d11": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d11"
+          ]
+        },
+        "family/d12": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d12"
+          ]
+        },
+        "family/d13": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 5,
+          "attainable_joint": [
+            5,
+            5
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        },
+        "family/d14": {
+          "planned": 8,
+          "measured": 4,
+          "technical": 4,
+          "observed_joint": 4,
+          "attainable_joint": [
+            4,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d15": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        },
+        "family/d16": {
+          "planned": 8,
+          "measured": 2,
+          "technical": 2,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            8
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            1
+          ],
+          "complete_family_ids": []
+        }
+      },
+      "L4_prefix_d01_d08": {
+        "all": {
+          "planned": 64,
+          "measured": 64,
+          "technical": 64,
+          "observed_joint": 58,
+          "attainable_joint": [
+            58,
+            58
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "authored": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 16,
+          "attainable_joint": [
+            16,
+            16
+          ],
+          "complete_joint_families": 8,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            8,
+            8
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07",
+            "d08"
+          ]
+        },
+        "generated": {
+          "planned": 48,
+          "measured": 48,
+          "technical": 48,
+          "observed_joint": 42,
+          "attainable_joint": [
+            42,
+            42
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/candidate": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/threshold_only": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "writer/deployed": {
+          "planned": 16,
+          "measured": 16,
+          "technical": 16,
+          "observed_joint": 14,
+          "attainable_joint": [
+            14,
+            14
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/allowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "policy/disallowed": {
+          "planned": 32,
+          "measured": 32,
+          "technical": 32,
+          "observed_joint": 29,
+          "attainable_joint": [
+            29,
+            29
+          ],
+          "complete_joint_families": 7,
+          "planned_families": 8,
+          "attainable_complete_families": [
+            7,
+            7
+          ],
+          "complete_family_ids": [
+            "d01",
+            "d02",
+            "d03",
+            "d04",
+            "d05",
+            "d06",
+            "d07"
+          ]
+        },
+        "family/d01": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d01"
+          ]
+        },
+        "family/d02": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d02"
+          ]
+        },
+        "family/d03": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d03"
+          ]
+        },
+        "family/d04": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d04"
+          ]
+        },
+        "family/d05": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d05"
+          ]
+        },
+        "family/d06": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d06"
+          ]
+        },
+        "family/d07": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 8,
+          "attainable_joint": [
+            8,
+            8
+          ],
+          "complete_joint_families": 1,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            1,
+            1
+          ],
+          "complete_family_ids": [
+            "d07"
+          ]
+        },
+        "family/d08": {
+          "planned": 8,
+          "measured": 8,
+          "technical": 8,
+          "observed_joint": 2,
+          "attainable_joint": [
+            2,
+            2
+          ],
+          "complete_joint_families": 0,
+          "planned_families": 1,
+          "attainable_complete_families": [
+            0,
+            0
+          ],
+          "complete_family_ids": []
+        }
+      }
+    }
+  },
+  "original_L4_contexts": 64,
+  "cpu_suffix_contexts": 64,
+  "shared_controls": "Previously screened authored controls are assigned once to their family stratum.",
+  "interpretation": "Backend is completely confounded with family and category. No causal hardware effect, combined cap selection, L4 confirmation or efficacy decision.",
+  "proposed_common_limit": null,
+  "efficacy_authorized": false
+}

@@ -1,0 +1,157 @@
+{
+  "approved_common_cap": null,
+  "boundary_proof": false,
+  "completed_writer_families": 8,
+  "grid": {
+    "1024": {
+      "attainable_complete_joint_families": [
+        7,
+        15
+      ],
+      "attainable_joint_contexts": [
+        74,
+        122
+      ],
+      "authored_joint": 32,
+      "complete_joint": 7,
+      "complete_technical": 8,
+      "generated_joint": 42,
+      "joint_observed": 74,
+      "observed_count": 80,
+      "technical": 80
+    },
+    "1536": {
+      "attainable_complete_joint_families": [
+        7,
+        15
+      ],
+      "attainable_joint_contexts": [
+        74,
+        122
+      ],
+      "authored_joint": 32,
+      "complete_joint": 7,
+      "complete_technical": 8,
+      "generated_joint": 42,
+      "joint_observed": 74,
+      "observed_count": 80,
+      "technical": 80
+    },
+    "2048": {
+      "attainable_complete_joint_families": [
+        7,
+        15
+      ],
+      "attainable_joint_contexts": [
+        74,
+        122
+      ],
+      "authored_joint": 32,
+      "complete_joint": 7,
+      "complete_technical": 8,
+      "generated_joint": 42,
+      "joint_observed": 74,
+      "observed_count": 80,
+      "technical": 80
+    },
+    "3072": {
+      "attainable_complete_joint_families": [
+        7,
+        15
+      ],
+      "attainable_joint_contexts": [
+        74,
+        122
+      ],
+      "authored_joint": 32,
+      "complete_joint": 7,
+      "complete_technical": 8,
+      "generated_joint": 42,
+      "joint_observed": 74,
+      "observed_count": 80,
+      "technical": 80
+    },
+    "512": {
+      "attainable_complete_joint_families": [
+        0,
+        8
+      ],
+      "attainable_joint_contexts": [
+        34,
+        82
+      ],
+      "authored_joint": 32,
+      "complete_joint": 0,
+      "complete_technical": 0,
+      "generated_joint": 2,
+      "joint_observed": 34,
+      "observed_count": 80,
+      "technical": 34
+    },
+    "768": {
+      "attainable_complete_joint_families": [
+        3,
+        11
+      ],
+      "attainable_joint_contexts": [
+        54,
+        102
+      ],
+      "authored_joint": 32,
+      "complete_joint": 3,
+      "complete_technical": 4,
+      "generated_joint": 22,
+      "joint_observed": 54,
+      "observed_count": 80,
+      "technical": 60
+    }
+  },
+  "independent_assistant_reviewers": 4,
+  "input_lengths": {
+    "authored": {
+      "count": 32,
+      "histogram": {
+        "1024": 0,
+        "1536": 0,
+        "2048": 0,
+        "3072": 0,
+        "512": 32,
+        "768": 0,
+        "above_grid": 0
+      },
+      "max": 487,
+      "median": 467,
+      "method": "nearest rank, ceil(p*n), one-based",
+      "p90": 480,
+      "p95": 482
+    },
+    "generated": {
+      "count": 48,
+      "histogram": {
+        "1024": 20,
+        "1536": 0,
+        "2048": 0,
+        "3072": 0,
+        "512": 2,
+        "768": 26,
+        "above_grid": 0
+      },
+      "max": 938,
+      "median": 756,
+      "method": "nearest rank, ceil(p*n), one-based",
+      "p90": 934,
+      "p95": 938
+    }
+  },
+  "masked_cards": 52,
+  "observed_contexts": 80,
+  "planned_contexts": 128,
+  "planned_writers": 48,
+  "review_source_sha256": "6735283ab893fc1f0265d844b2a2a6e7c2f123605f30dcd99854db0b3c78bbec",
+  "reviewed_once_per_card": true,
+  "scope": "W03G: first two strata on L4, descriptive coverage only",
+  "source_journal": "6ccf1d8fb47830e302d254090e00cc99ab6d960971df33a48232ae0d2fc63909",
+  "total_families": 16,
+  "writer_output_tokens": 7400,
+  "writers": 24
+}

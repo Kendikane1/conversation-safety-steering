@@ -1,0 +1,113 @@
+{
+  "schema": "public-input-map-v1",
+  "studies": [
+    {
+      "study": "W01D",
+      "artifact": "w01d-final-ccb935d0033a07af54a2ee76572846f9d1fb9a8eb55ad39f511dfd2f69e9a817.zip",
+      "artifact_sha256": "915945bd9c2a034579e133abfd3e32598d8476e38c6bc5ef074d445654ae52f5",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 96,
+      "context_rows": 0,
+      "notebook": "accepted final executed snapshot not located"
+    },
+    {
+      "study": "W01L",
+      "artifact": "w01l-final-8abb0f168b77475b768ee0d2519254bae193b3aead93b46c2ef66e13a405258e.zip",
+      "artifact_sha256": "6b25366449212b7d0769f7aaa8fd27904134b76722aead8747440ba2c967eab0",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 48,
+      "context_rows": 0,
+      "notebook": "accepted final executed snapshot not located"
+    },
+    {
+      "study": "W01S",
+      "artifact": "w01s-final-9a7f9ce5c909feb509b78348b9ec4445ee74dc0da731cbbeeff0de4be22e64c2.zip",
+      "artifact_sha256": "8c61b6ee6e9d635ecda676d0f57593a7030cae9316ff18c76739b21ab49a3cbd",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 98,
+      "context_rows": 0,
+      "notebook": "accepted final executed snapshot not located"
+    },
+    {
+      "study": "W02",
+      "artifact": "w02-final-dfdd1a1e363f99b496cfb0ae675b10b09f91b5a233a5fc71fd83a2f4bf976e04.zip",
+      "artifact_sha256": "59624c628a0774849130bb8433ead3d34ecd4017c619eadeb2cc4de8561f2f6d",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 88,
+      "context_rows": 0,
+      "notebook": "accepted final executed snapshot not located"
+    },
+    {
+      "study": "W03-fixed",
+      "artifact": "w03-final-3315adfb8e46f8d7c1bf92d91e959356a98f091b2ff9735a8bdc88972b4ec1fe.zip",
+      "artifact_sha256": "a43f571b86f46adc78a45d222b5f40df79935a9972cb0067c13a17e9d80e1045",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 48,
+      "context_rows": 0,
+      "notebook": "accepted final executed snapshot not located"
+    },
+    {
+      "study": "W03-live",
+      "artifact": "w03-live-final-e7b0086448416265758e0d16a2f2065c22c21201cf5eede152493ee1f4dc8480.zip",
+      "artifact_sha256": "f0f8fa0323f9f865e2c2ec4213c6b77d13110c8a22a0486cc264c17c19db5756",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 42,
+      "context_rows": 12,
+      "notebook": "accepted final executed snapshot not located"
+    },
+    {
+      "study": "W03C",
+      "artifact": "w03c-final-ac78114915660dd11ebdb148b62dc7538e628f8c5767a28b9fa7ccd1e7c76773.zip",
+      "artifact_sha256": "d90889f175902adc1c007ee57f0e156989b6b5cbc073b94c807ee652a6bbbbf7",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 53,
+      "context_rows": 128,
+      "notebook": "edited actual saved output extracts"
+    },
+    {
+      "study": "W03G-CPU",
+      "artifact": "source.zip",
+      "artifact_sha256": "5242390e05e384a26fd48dec74dacb9cd7edecb5672dab0d39d0ce6a41179b23",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 24,
+      "context_rows": 64,
+      "notebook": "edited actual saved output extracts"
+    },
+    {
+      "study": "W03G-L4",
+      "artifact": "w03g-final-ee209d96f2a67b76b8894b0080a9e85b2a0c3328b6e104721ad40d6332fd1c80.zip",
+      "artifact_sha256": "cbbe22651476963e48af03c8ce7e8caf81cdf3c745111de6f540cf90c6ef6d2a",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 53,
+      "context_rows": 128,
+      "notebook": "edited actual saved output extracts"
+    },
+    {
+      "study": "W03H-heldout",
+      "artifact": "private-79327d8ee18205ca9acacc43a7bcaa2afb8bf52b9664a7d55588ce1ea945a974.zip",
+      "artifact_sha256": "e0a59f40e5ec1bdbc191f38a9f07c4d33693d54d85e9d93cd159af214f75ec2f",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 168,
+      "context_rows": 48,
+      "notebook": "edited actual saved output extracts"
+    },
+    {
+      "study": "W03H-pilot",
+      "artifact": "private-77b1a672a20bf78c4b027d6ffa2b3f5b69402652fb02c702d09daa233649a19a.zip",
+      "artifact_sha256": "e6f909829a2b8de58c6e3eba0a74d256ff949278be4c3471e9684202496e8916",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 48,
+      "context_rows": 128,
+      "notebook": "edited actual saved output extracts"
+    },
+    {
+      "study": "W03RF128",
+      "artifact": "private-e6ff1d9cc32901fb22e8467d91a2547b6210b05ab57fbf2a1fd5849e4fbcb5e6.zip",
+      "artifact_sha256": "f9b551b1a4af43e6c3b5fd8dad465b28df31eba9d370c60dbb0fb9705f512bb9",
+      "status": "exported; independent release audit pending",
+      "slot_rows": 768,
+      "context_rows": 0,
+      "notebook": "edited actual saved output extracts"
+    }
+  ]
+}

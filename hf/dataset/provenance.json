@@ -1,0 +1,43 @@
+{
+  "final_receipt_sha256": "ccb935d0033a07af54a2ee76572846f9d1fb9a8eb55ad39f511dfd2f69e9a817",
+  "archive_sha256": "915945bd9c2a034579e133abfd3e32598d8476e38c6bc5ef074d445654ae52f5",
+  "diagnostic_parent": "22110ae9dd3dca3064bc4dbae5f7e173291290cd3224be6710423ac237491bff",
+  "review_parent": "c5fc6e0ceecb84b0000173dce46a97b02d0ab1cd75f176fd8c5ac48f1159a501",
+  "analysis_subdirectory": "9295bf37c3af10fe3cdb605614ee33cf9bb831549f9f690610d0d1b0b4a646db",
+  "metric_path": "metrics.json → groups → expected_policy_action/{policy} → {arm} → auditkit → metrics → {metric} → mean × count, count",
+  "files": {
+    "metrics.json": "54623bd029ce5a7937c40ce110d232ead47c39506c926bbfbb3ec95d9debcc10",
+    "labels.json": "b1c7e4b0d138f1b477bec96d52407cb69042227ee239209af938ca9c9df13885",
+    "summary.json": "f37ebb2012a7701418baaead63b3310600172aaf5aaef536b16380b725a262d4",
+    "families.json": "d3d9348ec891f4f77816db62a040c73045f6e1001e23961c5967e25600496500",
+    "tables.json": "96b2f91b9d020ea939b72ed9d264f9f8281a0e206d4a0631ea513286f2df5f32",
+    "review-envelope.json": "4d27b6490a1df841304aff077457e0c38a233f4058481954ad59b6a0222c4332",
+    "decision.json": "f37ebb2012a7701418baaead63b3310600172aaf5aaef536b16380b725a262d4",
+    "records.json": "52bd0cc9db26e4c2ee7902364118db0e4dc703580bc3a220368724f8d79b99f8",
+    "ledger.json": "dad1bbe1824ce82176e218fe7cf27d4727029966c01844116c8b91e9170cb7d4"
+  },
+  "calibration_checkpoint": "69095a3a968b99e3f969582dea1a192ca85526360aa02b97d3ff11e7f3d47fc0",
+  "fit_split_rule": "per class 8: train [1,3,5,7], validation [0,2,4,6] in class order",
+  "input_hashes": {
+    "diagnostic": "5dab123ea301c5ece60b788a8ec2a08c469777c4ebf031098367950c769854b5",
+    "extraction": "4a587dcd81986ab694afc05edc5989cec0e9b9bf9e37c9f6f3c2e5c75b85d122",
+    "development": "1b824373fda7ff71df00885234f113b69c244d2d777a3613f983ca16b8f8798d",
+    "rubric": "ea071b1d1ca98e700a323f1dcdb37fc40a356337cab1ec6774b66195a56d5bad"
+  },
+  "W01S_final": "9a7f9ce5c909feb509b78348b9ec4445ee74dc0da731cbbeeff0de4be22e64c2",
+  "W01S_decision": "insufficient_coverage",
+  "W01L_final": "8abb0f168b77475b768ee0d2519254bae193b3aead93b46c2ef66e13a405258e",
+  "W01L_selected_alpha": 0.0625,
+  "W01L_qualification": "operational candidate, no demonstrated safety improvement",
+  "condition": {
+    "condition_layer": 27,
+    "threshold": 0.3700000000000012,
+    "comparator": "smaller",
+    "pool": "last"
+  },
+  "central_finding": "gate_related_failure_observed",
+  "primary_cases": [
+    "f05-disallowed",
+    "f11-disallowed"
+  ]
+}

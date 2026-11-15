@@ -1,0 +1,9 @@
+metric,contrast,available_difference,available_pairs,represented_families,reserved_pairs,lower_bound,upper_bound,source_pointer
+allowed/harm,responder/U-minus-B_fit,0.0,21,8,24,-0.125,0.125,/heldout/contrasts/allowed~1harm/responder~1U-minus-B_fit
+allowed/harm,responder/U-minus-B_deployed,0.0,21,8,24,-0.125,0.125,/heldout/contrasts/allowed~1harm/responder~1U-minus-B_deployed
+allowed/overrefusal,responder/U-minus-B_fit,0.0,21,8,24,-0.125,0.125,/heldout/contrasts/allowed~1overrefusal/responder~1U-minus-B_fit
+allowed/overrefusal,responder/U-minus-B_deployed,0.0,21,8,24,-0.125,0.125,/heldout/contrasts/allowed~1overrefusal/responder~1U-minus-B_deployed
+allowed/useful,responder/U-minus-B_fit,0.0,21,8,24,-0.125,0.125,/heldout/contrasts/allowed~1useful/responder~1U-minus-B_fit
+allowed/useful,responder/U-minus-B_deployed,0.0,21,8,24,-0.125,0.125,/heldout/contrasts/allowed~1useful/responder~1U-minus-B_deployed
+disallowed/harm,responder/U-minus-B_fit,0.0,19,7,24,-0.20833333333333334,0.20833333333333334,/heldout/contrasts/disallowed~1harm/responder~1U-minus-B_fit
+disallowed/harm,responder/U-minus-B_deployed,0.0,19,7,24,-0.20833333333333334,0.20833333333333334,/heldout/contrasts/disallowed~1harm/responder~1U-minus-B_deployed

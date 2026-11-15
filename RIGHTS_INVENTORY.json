@@ -1,0 +1,1206 @@
+{
+  "basis": "LICENSE.md; file/component scope, not blanket relicensing",
+  "excluded_self": "This inventory is included by final byte inventory, not self-hashed",
+  "files": {
+    "ABSTRACT.txt": {
+      "sha256": "3602110b954898f6e55c004dbaabd95f3959561d9f281ae46a397d3f359997bf",
+      "bytes": 3055,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "ARTICLE.md": {
+      "sha256": "57188396423da991def54f18577bbcbeaa04ddb22871e60797744caec7c04423",
+      "bytes": 37431,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "ATTRIBUTION.md": {
+      "sha256": "969703bb1dcf61724cc1af785cb155b9ffb212a003e9977888e26df8d6e6efb0",
+      "bytes": 2793,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "AUTHORSHIP.md": {
+      "sha256": "1af41d29a53bf62903c8df909a016ee52897bd8e6ffd656b2dd0b86e0fd0fa47",
+      "bytes": 1168,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "CITATION.cff": {
+      "sha256": "2d0cdcd846de8dff15ab47938800b128a493eee18b2da076ebed5ece9a50689e",
+      "bytes": 613,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "DECISIONS.md": {
+      "sha256": "188bfe6ed65efb508b1753b39341ad3bad1763907d01e44776f339c122cefd64",
+      "bytes": 1053,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "EVIDENCE.md": {
+      "sha256": "0367fef849dd9228db0d6bffd9699309e1088cae68761b5a05b6ba2d1e93802a",
+      "bytes": 6464,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "LEGACY_EXCERPT_EDITS.json": {
+      "sha256": "69b3570e2e565bbde3a66f482ae3f068792bf8e661123e1fb56e8821916f94be",
+      "bytes": 3435,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "LICENSE.md": {
+      "sha256": "5f6a33e6e977e20c3e8d0de12574e6db20f6f6458c8b382c5c4bee569113cb82",
+      "bytes": 1425,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "LICENSES/CC-BY-4.0.txt": {
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "bytes": 18657,
+      "scope": "Full standard licence text retained for its respective scoped grant; not claimed as original research prose"
+    },
+    "LICENSES/MIT.txt": {
+      "sha256": "340cffc073f78822dbe0715553b969df88fccc2e22843547fec5f33aa54d7dde",
+      "bytes": 1085,
+      "scope": "Full standard licence text retained for its respective scoped grant; not claimed as original research prose"
+    },
+    "LICENSES/upstream/AuditKIT-LICENSE.md": {
+      "sha256": "1b9b7db5022c6f63c4a8e11f3f5ad3d8b2c1f4170836d3b82dd2a31322ba6b2d",
+      "bytes": 8461,
+      "scope": "upstream LSAL v1.2 text; retain notice"
+    },
+    "LICENSES/upstream/SafeTune-LICENSE.md": {
+      "sha256": "a3f3380163ba175405369747a0600d7f464e7d697617f3b597a9317611953c31",
+      "bytes": 9510,
+      "scope": "upstream LSAL v1.2 text; retain notice"
+    },
+    "README.md": {
+      "sha256": "bfe8e6c63d4cde8780cee63a2adf8ca9cb15fef0bae3f42f83f1576c35886c98",
+      "bytes": 5909,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "SOURCE_EDITS.json": {
+      "sha256": "3884d515e24ce36cd95891579ce1b8a5b392bf35d5a16ce1b1ed35c4bf53dfca",
+      "bytes": 3095,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "STUDIES.md": {
+      "sha256": "feb92f0ac0f2c7c9b19a138191d27647c2232909c4d19c890f29b85b3853dd7a",
+      "bytes": 3948,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "W03H-PROVENANCE.json": {
+      "sha256": "d39e3bbaed9db18a9b35292283f1bf1edc5783e85055fbd69344460057115604",
+      "bytes": 1534,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "W03H.md": {
+      "sha256": "73c4c9d360a64226408c846e9a92a58ff269a6dcce7e7bd8cefe36076bcb7a6a",
+      "bytes": 7419,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "article.html": {
+      "sha256": "b35dcb708b18d777ebd8a5ef80f39cd2b5eb0f641b0185aa9eebfeca17d71ea9",
+      "bytes": 41750,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/INPUT_MAP.json": {
+      "sha256": "85927c99fae98d299b3155d89c933da5801490ba5326eab05842411fc023d78f",
+      "bytes": 4843,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/INVENTORY.json": {
+      "sha256": "28837504e856260eaa8111fd85797e31a667635d5757b0418bf07a0cd2dd7898",
+      "bytes": 20891,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/README.md": {
+      "sha256": "1dcafa1f5d17884f37ca2df0345e5543258f7045d37ecea8c2195202b8b5bb0c",
+      "bytes": 4247,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/RECONSTRUCTION.md": {
+      "sha256": "15189dc6f8d439d53db835d938f07218f0b1f8743c340c1cf600c526fd8a3604",
+      "bytes": 3281,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/REDACTIONS.jsonl": {
+      "sha256": "115ca200e339e309e41322c8c573aeeb61db8ae98f11e03b982b29f3298fe263",
+      "bytes": 127087,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/SCHEMA.json": {
+      "sha256": "edf99960a0bb4488e61ca35e8a97bb2c02bbdff974cda276b319a31fd9e27bb1",
+      "bytes": 2229,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/SHA256SUMS": {
+      "sha256": "c19eecff50bbd148005def95141ba28df6394e747061a4de4c7cdbbc35935fcf",
+      "bytes": 11154,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/SOURCE_MANIFEST.json": {
+      "sha256": "edcde6da630fa877c232122f1503640e70ec4a9f727cb8ff3c97bf6c743fe5b6",
+      "bytes": 207240,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/NOTEBOOK_STATUS.json": {
+      "sha256": "9d05ad74822d226c609142cac0ae821fac93563a230443b886942eea7102e0b9",
+      "bytes": 227,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/REDACTIONS.jsonl": {
+      "sha256": "df56adc96778f947a7e54ff99e6e2d039bc24ce1ab303f19bccc41ade271d79a",
+      "bytes": 1730,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/SOURCE.json": {
+      "sha256": "e68d20306098b6bdf74a93d7bb7c3b5b539ca45b9b8057fead2131322113712d",
+      "bytes": 13906,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/STUDY.json": {
+      "sha256": "311c18799de66763975d010df765892722fed4b17a92631956de7c8a3c22d0e2",
+      "bytes": 560,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/analysis.json": {
+      "sha256": "f9dca706d51669a612d69a3edc79e8b0352a9b1911baf2e2b44065c6f5489f26",
+      "bytes": 502197,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/contexts.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01D/slots.jsonl": {
+      "sha256": "0d24d4ae37ef3c120971ea6c21c271da3351b7c5b5ff952038fff4f28807a431",
+      "bytes": 414573,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/NOTEBOOK_STATUS.json": {
+      "sha256": "9d05ad74822d226c609142cac0ae821fac93563a230443b886942eea7102e0b9",
+      "bytes": 227,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/REDACTIONS.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/SOURCE.json": {
+      "sha256": "5af8241b5537474c0e076c3dce85f61d3789340a5339165d8edab21889633ce2",
+      "bytes": 8373,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/STUDY.json": {
+      "sha256": "e101cb3645360a3a047832b1ad8ab46d68605d43faade548128b226163c3226e",
+      "bytes": 590,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/analysis.json": {
+      "sha256": "b6caaeb3b0d561fb221908c2eb167b47d4e08d6dc3551e5a4765a80fc67ff313",
+      "bytes": 25865,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/contexts.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01L/slots.jsonl": {
+      "sha256": "2a57ba8b883745e4e3f0379b1ce24e328cb80e627e9da54c689a2067266b6213",
+      "bytes": 223191,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/NOTEBOOK_STATUS.json": {
+      "sha256": "9d05ad74822d226c609142cac0ae821fac93563a230443b886942eea7102e0b9",
+      "bytes": 227,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/REDACTIONS.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/SOURCE.json": {
+      "sha256": "c7c4d983a544651109eec880c756dbc46c48d3350280c67be5237f4e35e5ce1c",
+      "bytes": 15130,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/STUDY.json": {
+      "sha256": "8ae55a91fac7d73cd9641141370c33c719e113119f939ebbb80e7798f7bfd4c7",
+      "bytes": 573,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/analysis.json": {
+      "sha256": "c44d65badf8caeb591462b68cbff7e5ceede50642859324212be4b4881f08eda",
+      "bytes": 14165,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/contexts.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W01S/slots.jsonl": {
+      "sha256": "f549fc3bb92c7af943aeaf82ab653b83b36f75581a12d1587321de9ab69ccc9d",
+      "bytes": 399892,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/NOTEBOOK_STATUS.json": {
+      "sha256": "9d05ad74822d226c609142cac0ae821fac93563a230443b886942eea7102e0b9",
+      "bytes": 227,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/REDACTIONS.jsonl": {
+      "sha256": "d0181f82bb9e27d681913e6e09f4c1265c1ad40601cadb1af4009cab4664b80a",
+      "bytes": 18677,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/SOURCE.json": {
+      "sha256": "5f15f40d4fea6878bb778034bc6a27e5e2102d0eb7923a2dfb9e7772f551c2d2",
+      "bytes": 12226,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/STUDY.json": {
+      "sha256": "f40d51e9560c6a73d0ce644109eecabfbe5278af70688cd4cf66aa87a617d40c",
+      "bytes": 650,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/analysis.json": {
+      "sha256": "992eb3f8766130af17f613b2fb9102d75df0a65502114699ba116e8a28ad0160",
+      "bytes": 2949060,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/contexts.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/replay.jsonl": {
+      "sha256": "5279afe7ab9a1a0ca2f9b45de75ab6fca99b07475856876984ae60760947b0b6",
+      "bytes": 887647,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W02/slots.jsonl": {
+      "sha256": "ac3a29f95ec4d5a4b3d26f12b131d4d9b28ae90cdf9c082ccbe9903d8988d0f5",
+      "bytes": 228167,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/NOTEBOOK_STATUS.json": {
+      "sha256": "9d05ad74822d226c609142cac0ae821fac93563a230443b886942eea7102e0b9",
+      "bytes": 227,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/REDACTIONS.jsonl": {
+      "sha256": "5060d12299ce40b8e4d2b78af119f29bd24f4e71bcb0bc58cb9484caa9724739",
+      "bytes": 2905,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/SOURCE.json": {
+      "sha256": "e8cd2a522fda1471b678052c397140f6505fa1fab3b67afd69b514dd3e740aff",
+      "bytes": 7299,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/STUDY.json": {
+      "sha256": "93c8f6a8ee2c9fed66a177258804e6e60db2abc312a2789503770a05d6287d6d",
+      "bytes": 545,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/analysis.json": {
+      "sha256": "b3ed8d88377076bbd0ab3a12eb190c77f7c6e16d89a5430b200bd3d74cdaa0df",
+      "bytes": 145797,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/contexts.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-fixed/slots.jsonl": {
+      "sha256": "9cd366c6c22611e411e99499941b8903064c1409c36d9a1ffa060d42bbb762f8",
+      "bytes": 245225,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/NOTEBOOK_STATUS.json": {
+      "sha256": "9d05ad74822d226c609142cac0ae821fac93563a230443b886942eea7102e0b9",
+      "bytes": 227,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/REDACTIONS.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/SOURCE.json": {
+      "sha256": "0df661f9bc5fa230cba9682664d9ce44bfa196ceade5b52cc625cd8ba7926270",
+      "bytes": 2092,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/STUDY.json": {
+      "sha256": "622e0b159373d46e21a3b151dac3adc9ee6ec83de77e9256adde9a523f23bd00",
+      "bytes": 570,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/analysis.json": {
+      "sha256": "3e4b7f75d365e070f8c0f83f4bcd53372a126b2935b26253bedf0a16f3caf3c0",
+      "bytes": 239288,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/contexts.jsonl": {
+      "sha256": "b5e115b9d281524ada44c7a1bef55ab293df666278c5e978cebc9db4fc5d9236",
+      "bytes": 55422,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03-live/slots.jsonl": {
+      "sha256": "b109d8bfd946e04cde24a3535bdf22e6aea5610a370f97c993b0932e839fd5bd",
+      "bytes": 82881,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/NOTEBOOK_PROVENANCE.json": {
+      "sha256": "499f27f4da557fa2831fa2b640e4774e6bb041c2923cf1ff201ac68d33233132",
+      "bytes": 10208,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/NOTEBOOK_REDACTIONS.jsonl": {
+      "sha256": "2f11246537a48aba49c14d224abc81ac0963ef39e4724d83150d57b7d0fe00a4",
+      "bytes": 14211,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/REDACTIONS.jsonl": {
+      "sha256": "4777e8fcf60ec3b15541d8258b54e3961830739da9511f142972542de5d39f15",
+      "bytes": 7290,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/SOURCE.json": {
+      "sha256": "5b1c56557babe9982b91719af5134d91494a5fea0bb1d870de22d227868f3d49",
+      "bytes": 7470,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/STUDY.json": {
+      "sha256": "82bedcf057b1844fef7b07ba7fd8737ccacc70677d3ace1ca699ed171ac2d898",
+      "bytes": 633,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/analysis.json": {
+      "sha256": "4d5f15f6c750d8deb9aeb02e69d585de38bb86f05faf3d04b211e1724aa1bdc9",
+      "bytes": 599354,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/contexts.jsonl": {
+      "sha256": "abbddb907ad056456243c7792328cdc4153b146a9a024ba82154b742df1cb5dc",
+      "bytes": 444860,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/notebook.ipynb": {
+      "sha256": "9491f10bfb956bcefdd5c8342188de38d312530490160f1567032915e0bef37c",
+      "bytes": 613787,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03C/slots.jsonl": {
+      "sha256": "b6f6ef33115fa76191bce8b67f296687646695b68f6c0b0d3f739200fd22444c",
+      "bytes": 263361,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/NOTEBOOK_PROVENANCE.json": {
+      "sha256": "d49ec8b9687973eea0cc4a2ece325c112c77f541b24388badb508685427bdfe9",
+      "bytes": 4937,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/NOTEBOOK_REDACTIONS.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/POSTHOC_SENSITIVITY.json": {
+      "sha256": "236ea73334c04a8f217d681e32a0ab05d405f404c50a57dac06654ef7ceb721a",
+      "bytes": 13878,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/REDACTIONS.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/SOURCE.json": {
+      "sha256": "187a40fb8cc77b19fce7466f4a825be7826811a8172025513ec784e2b944fb7b",
+      "bytes": 2370,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/STUDY.json": {
+      "sha256": "b429402a9014e4acfe773b54d2cf6247738a43e14226017e430cac6108cd3696",
+      "bytes": 593,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/analysis.json": {
+      "sha256": "0e11071ceb671b9cc82e2020bab7d74da866cfbd22990868546ac326a2605471",
+      "bytes": 93141,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/contexts.jsonl": {
+      "sha256": "7a699e579c25711ae5f318496e9bb17216bd7643dc6466749746682c87332de8",
+      "bytes": 209833,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/notebook.ipynb": {
+      "sha256": "ff284ccba5dc15a41b97ce25a8995e1fffed4dc0895d90d1446c52f696125f2b",
+      "bytes": 27795,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-CPU/slots.jsonl": {
+      "sha256": "bf263c83a1a57c6354f39ddd61c912bcf41e2e744dd8c9bd3248ae881886b6a7",
+      "bytes": 81022,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/NOTEBOOK_PROVENANCE.json": {
+      "sha256": "b052e42ac544b4e1b1c2c6bbb632e32d0d52dd196c4966311b62d615c2fc52e1",
+      "bytes": 9592,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/NOTEBOOK_REDACTIONS.jsonl": {
+      "sha256": "4fcef3794382ee318f380da76692c6552f677bc3179e616dd35214c017fa763a",
+      "bytes": 4089,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/POSTHOC_SENSITIVITY.json": {
+      "sha256": "c1d47939e4a8f296814cd4ffb533648215a5a9ca32855814ffd443768113b4d0",
+      "bytes": 13522,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/REDACTIONS.jsonl": {
+      "sha256": "8d4e33739ff88c053f9884a0439f7a78087599cd089afd335dfcd5c979c05fbb",
+      "bytes": 2784,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/SOURCE.json": {
+      "sha256": "ea5c3eeaf978224e9918aea4299c1bc44c4bee2ba697fc09fc3a425be4047dea",
+      "bytes": 6847,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/STUDY.json": {
+      "sha256": "05a31a59152edff342b08fc9b1241a528a4e5155800c187ad52a84ca47f33621",
+      "bytes": 584,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/analysis.json": {
+      "sha256": "ff98b649cae33ea37ff2e41537bc14749c80f9c27f47d3a9a0d3d5e0b50b38d0",
+      "bytes": 558486,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/contexts.jsonl": {
+      "sha256": "74f3f43b14324eb371bf91ba8e7ceded3df1513693c212b4f507c52339618983",
+      "bytes": 506693,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/notebook.ipynb": {
+      "sha256": "fdebc1fdb5c6333035f6806f06d0c1800b6ba56ddd4513e4f875e5e99d793a3d",
+      "bytes": 696789,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03G-L4/slots.jsonl": {
+      "sha256": "bac09aae6d8936a8c741c78b2ca69385aef5fe0be23c5d4715073d7c9b740d52",
+      "bytes": 239620,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/NOTEBOOK_PROVENANCE.json": {
+      "sha256": "0ebb50177a65a948b8f7bbd547cfd4a04cbedc40ddf5028397ba940ec5b66f74",
+      "bytes": 36577,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/NOTEBOOK_REDACTIONS.jsonl": {
+      "sha256": "4abe32401df7a391e8de4fd07a6796515145bc7a1bead96296a7066fca3e9647",
+      "bytes": 1284,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/SOURCE.json": {
+      "sha256": "b0774acc4b4195e85f7c0d16eee34be8d411589ac361f4d977037043bfb3f995",
+      "bytes": 21667,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/STUDY.json": {
+      "sha256": "2c1b66ded7982c5aa7c49cf06940b08dad998f00e975d48bc16a9d38b7622c58",
+      "bytes": 648,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/analysis.json": {
+      "sha256": "520c4c4bc0245fdd224704d9cb51e29187d93a99a5c994c40631596fa5ec1708",
+      "bytes": 1084827,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/contexts.jsonl": {
+      "sha256": "dbaf8efedfba73741e8d5477cdddc40c45a6436f01c645ac5ccfe39022c80a03",
+      "bytes": 205180,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/notebook.ipynb": {
+      "sha256": "e6ddc01892a784f0c557ad6106855bee227899516590207c9d298d00b8baf872",
+      "bytes": 200317,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-heldout/slots.jsonl": {
+      "sha256": "e55c383836a5413ea5b8821ccff62c82a7f96507dd8e2ecfef312efb4a3c83cb",
+      "bytes": 852446,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/NOTEBOOK_PROVENANCE.json": {
+      "sha256": "5761f8b2dd43429431d515371c2421bc9daa84bedfbd89260338e734a56fc6ca",
+      "bytes": 36271,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/NOTEBOOK_REDACTIONS.jsonl": {
+      "sha256": "dc81553b6ea4375e1a65df04999c6b46b7e033531409e70052437be12252cc0b",
+      "bytes": 1290,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/SOURCE.json": {
+      "sha256": "61d8408f86a51819ec35ea6ab4eddbec05bf3495b32a85b6deb5bf96f410dffc",
+      "bytes": 5885,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/STUDY.json": {
+      "sha256": "a845ea9f94fbac6a6734deba0c2b7cb8972f410236c0a54723a8307f67b94b04",
+      "bytes": 583,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/analysis.json": {
+      "sha256": "4c729aec89ceaed81254f30dd0985a452729930cb0522f94b013a229412ac68a",
+      "bytes": 1322285,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/contexts.jsonl": {
+      "sha256": "f6ab305e67e59674a65ace3bbdc8c5d345c5d5d43f9bff5400753e8d9cd08f5d",
+      "bytes": 546326,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/notebook.ipynb": {
+      "sha256": "5d22694b62b09b872a496ee5a178777b1fcdcf8313037ee219afb3a8f4fff80e",
+      "bytes": 177924,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03H-pilot/slots.jsonl": {
+      "sha256": "fb3e6d7e29aaf8f25745f04c81a38e566d798087c24e3886c9454b492cd4f648",
+      "bytes": 215525,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/NOTEBOOK_PROVENANCE.json": {
+      "sha256": "c882a05d5b0802eb79fab990d3d773b7cfb129397fb0bf272821fb9ede8f5e58",
+      "bytes": 17798,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/NOTEBOOK_REDACTIONS.jsonl": {
+      "sha256": "f02f00e90cd8d87331bb05dfce8a0dbf45a98288b599cf94e45f5b4dad365380",
+      "bytes": 6919,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/NOTICE.json": {
+      "sha256": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+      "bytes": 559,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/REDACTIONS.jsonl": {
+      "sha256": "a6f895c19dabf45efb98c59bc686ebdbb732d877823141b0a5f1f5acc5bb176b",
+      "bytes": 65908,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/SOURCE.json": {
+      "sha256": "8e5424d6e7cca4b0c26298a36fb75c7d8287883e26d92883520cf472b60a574c",
+      "bytes": 100551,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/STUDY.json": {
+      "sha256": "2311a134edecd4a04b79b37b0ab31dbff987e6dca1f2b8b27814ef8cb44eb5a2",
+      "bytes": 592,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/analysis.json": {
+      "sha256": "da7716d1db03ee08396b190172016d46972b2a1c41045ca403789ca8c615a56b",
+      "bytes": 42795,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/contexts.jsonl": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/notebook.ipynb": {
+      "sha256": "7cde0c8f475dd2235e42af2637d90d74fc146df88ff91d64cb1ef28c32e3698a",
+      "bytes": 310589,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "evidence/studies/W03RF128/slots.jsonl": {
+      "sha256": "d372cc5144047d2c7bd84eb39fcf67156fde1fa078230f16a1ce0d09ce191db3",
+      "bytes": 4651666,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/README.md": {
+      "sha256": "6113b2c8478686ac8dcd263ecf04ca32874ebefb29f6beee3c28dbaf873183b8",
+      "bytes": 4042,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/SOURCES.json": {
+      "sha256": "eac1f38a9b7374b316ce39bab78f32b59da59a921c0bd85d87f67f459657a625",
+      "bytes": 8890,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/W02-SOURCES.json": {
+      "sha256": "64bc9cf5dae6cef76e13cb291efced66b1d1c26e8bf9b37490c51a15af46d160",
+      "bytes": 1673,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/W02.md": {
+      "sha256": "640e1463828e695ce7476f0687dcad0d1ac24c317224ad7d5fdb03905dcdaa63",
+      "bytes": 2208,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/colab/conversation_artifacts.py": {
+      "sha256": "9b16172015d04569e033a24b230cfa82fbccc25d3a41d1863a9f66fe0222ac0c",
+      "bytes": 3744,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_compute.py": {
+      "sha256": "0dc3dbcd54409d867a853d5725bd7280fa671d7588a06504d43691119cc1a311",
+      "bytes": 12880,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_diagnostic_v1.ipynb": {
+      "sha256": "aec83d6ea87827da2978e39843962a33850f9be676de93b9649bd34ac8a51859",
+      "bytes": 28565,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/colab/conversation_environment.py": {
+      "sha256": "f8c08df0360ef4ac7dd1382ead5ff9cae515eee27e8ddd6b651639245e70b1f7",
+      "bytes": 10288,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_launcher.py": {
+      "sha256": "1a3e73c01a3223327afc4bdbd1f29a94fa795abc4a6c103d96d4f619c277eb1e",
+      "bytes": 7138,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_model.py": {
+      "sha256": "abf45c6aa261532656e45782c1299ba79af6cde252e116b7916090fdc28d475d",
+      "bytes": 10327,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_review.py": {
+      "sha256": "25aa8138d2c9c6d301a8e0bedc13d8f4bf3737e420f962cbf89e31d2cb86d4cb",
+      "bytes": 14603,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_runner.py": {
+      "sha256": "013c609f6aa1506aedb35350431b2a7255f575f22bef384af818068d48b84290",
+      "bytes": 18236,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_state.py": {
+      "sha256": "c008dc0167a71664fe6d54f5ff757e054250914d5c35fab9f46fc39e8a1198c8",
+      "bytes": 7614,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/conversation_view.py": {
+      "sha256": "34fc2d529e251dfea0afc3f4ecdc4b25eabd6ab77e6270ecbbe29553f45b53f4",
+      "bytes": 12155,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/gate_readout_comparison_v1.ipynb": {
+      "sha256": "af36b23cdcfb9a399ad162e6921069ebe0cda58b78696b5ae99fed39504684a6",
+      "bytes": 23726,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/colab/readout_analysis.py": {
+      "sha256": "12e8e6ac2008aa570483725dd6440cfe5f02dc09ee0739a039be84004060f189",
+      "bytes": 8519,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/readout_artifacts.py": {
+      "sha256": "feff564c93dddd3ca51eee5e33fa5a8e88960a0a86636f7f6aebb67d6bccd793",
+      "bytes": 3373,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/readout_launcher.py": {
+      "sha256": "a64b9ced393f3cac1c834794e430b3c8303e86249b64a4b4ccbd2dbd05a2fd29",
+      "bytes": 4762,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/readout_model.py": {
+      "sha256": "6881aa5d5e6d0476b51047216790d5c9495e8d8ff236630a6066d960d2fd1cc7",
+      "bytes": 4006,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/readout_parent.py": {
+      "sha256": "39d1f12bdfd0bc547d20411ec46bb1cb7329803db3c2480208edb5e821da33f8",
+      "bytes": 3889,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/readout_runner.py": {
+      "sha256": "d8db5a709232f12a9993d5a0eac3ae509a4729d10c2550664b177742dbaf84d6",
+      "bytes": 22166,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/readout_science.py": {
+      "sha256": "4239cfd7e4fc8dc4cd20348cf42a38af1c4ff8bec01964dd5ac610536bf2fb35",
+      "bytes": 8660,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/colab/readout_view.py": {
+      "sha256": "3f1bd4661dfb2ef4af4475675d1557649e18dad36687e35288e1e0e50017a14a",
+      "bytes": 6891,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/configs/fixtures/w01_development.jsonl": {
+      "sha256": "1b824373fda7ff71df00885234f113b69c244d2d777a3613f983ca16b8f8798d",
+      "bytes": 11994,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/fixtures/w01_diagnostic.jsonl": {
+      "sha256": "5dab123ea301c5ece60b788a8ec2a08c469777c4ebf031098367950c769854b5",
+      "bytes": 40840,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/fixtures/w01_extraction.jsonl": {
+      "sha256": "4a587dcd81986ab694afc05edc5989cec0e9b9bf9e37c9f6f3c2e5c75b85d122",
+      "bytes": 11900,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/fixtures/w02_calibration.jsonl": {
+      "sha256": "146cc86a7ea225ad2b02b4c671ce30c3798dc18c8ca5513287ed561a2a593389",
+      "bytes": 22131,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/fixtures/w02_split.json": {
+      "sha256": "e4074d175582e6e3537e27a9562e499e728a855063969218f8a4cf07d030ef92",
+      "bytes": 263,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/w01_baseline.json": {
+      "sha256": "9678c3101703860301e1417c971456a32721090e50607ba1b882b88c356cff93",
+      "bytes": 2683,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/w01_conversation_v1.json": {
+      "sha256": "f3aa98d4d172a3f11592ae03e608cd2be5f47dbd4adaf90c4ba549c8022cfc82",
+      "bytes": 4353,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/w01_sources.json": {
+      "sha256": "de4b8cea4a4199c14035670b49e2cc9f68bfe31e1af665d24105969eac9748d4",
+      "bytes": 31666,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/configs/w02_readout_v1.json": {
+      "sha256": "6b0364dcdfe75b835072c77d98bd97746dbfe60acb673a732de57cc8da16af31",
+      "bytes": 2411,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/docs/W01_CONVERSATION_RUBRIC.md": {
+      "sha256": "8d18da8b7de277898a346d5f49a4ac67471a4b7bffa8598b14feb36a2a04fcc9",
+      "bytes": 4081,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/docs/W01_LENGTH_RUBRIC.md": {
+      "sha256": "7a258545d70660902a7c30c9b99ea4b1ab071950d83cdf3496844b5f261488d0",
+      "bytes": 5443,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/docs/W01_RUBRIC.md": {
+      "sha256": "ea071b1d1ca98e700a323f1dcdb37fc40a356337cab1ec6774b66195a56d5bad",
+      "bytes": 9734,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/docs/W02_READOUT_RUBRIC.md": {
+      "sha256": "8b432e94e690880713672123dc08081c29e201c7244ba6f82f5f37c94a85ae61",
+      "bytes": 1941,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/src/lexsi_track2/__init__.py": {
+      "sha256": "489a2d6000ec9c00d8bc29e8ec221d11b2d82343503b5b26e15b5a336e680fbe",
+      "bytes": 89,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/src/lexsi_track2/contracts.py": {
+      "sha256": "b16e6988dbf9b2676dc1a1f84056f1e04e0550fc66c8eaae835f2a7cf92f5012",
+      "bytes": 19689,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/src/lexsi_track2/observe.py": {
+      "sha256": "98eab305461c0409fd0921b0949c00ef528569ceeec7dd3ff757f1177fa9ad03",
+      "bytes": 3372,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/src/lexsi_track2/review.py": {
+      "sha256": "d2ec14dd4d6be3c3e6ac182806cb861a1ccb6f002f728da8a844230b5076ee9d",
+      "bytes": 11116,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/src/lexsi_track2/runtime.py": {
+      "sha256": "809a56968fa00437f434dec2099061f0520a15191334b24d18f82236b9f73dd5",
+      "bytes": 24727,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/src/lexsi_track2/setup.py": {
+      "sha256": "353da4172bf98b809c9e073ca1b5789e1d468490b4c34ea270a8b7ac3b5aa256",
+      "bytes": 6323,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/src/lexsi_track2/tokenizer_validation.py": {
+      "sha256": "c3535904641cb8c001fdb66fad09958ffb6a286d3e8125d5b331627e7c13004f",
+      "bytes": 4281,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "experiment/w03h/PROTOCOL.md": {
+      "sha256": "6a5873552c3bbe4ca05777006ca687c6e4ba794b3a90d3ea7f5caa8076880114",
+      "bytes": 12504,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/w03h/README.md": {
+      "sha256": "c1cb4dc6820d078b17f8130fe32e523b08e004d23a7f71e121cc28ac72bc7bfb",
+      "bytes": 1128,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "experiment/w03h/W03H_CANDIDATE.ipynb": {
+      "sha256": "9a144072be3ed5df78a03480c1ae939951c51a49164cff26aeb7eeaaf301998a",
+      "bytes": 30253,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/w03h/inventory.json": {
+      "sha256": "b0bb8749a43d5af37b4da197779e113a197128b621315485ac94cc9eb055551c",
+      "bytes": 2071,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "experiment/w03h/w03h-candidate-v1.zip": {
+      "sha256": "875043f0456c130985ff153bc1319d5110b8bd41e7299d8eb1211b0639055d21",
+      "bytes": 38385,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "gpu-versions.json": {
+      "sha256": "b7f1bcf7bc4a0fa81a69702f8cd379206b031acff3475340909f2a0b2ac9265f",
+      "bytes": 1675,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/README.md": {
+      "sha256": "7f918403bfdaf29b3db984ed539800e4ea4908236b473fbf90bffe62c649b219",
+      "bytes": 4126,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "hf/dataset/W02.json": {
+      "sha256": "9bd8d3478980bff5179f978edd1f8d090ca562b3274beafff14873e15f829c87",
+      "bytes": 5500,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03.json": {
+      "sha256": "a01e08c203564f27de5b2f015755fe70cf54b1bc9a3d6de563c0d2b6ca752b10",
+      "bytes": 5095,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03C.json": {
+      "sha256": "63d4df2104148cc3243a347abd283fdca298b815f98ef2694ae2d472189f7cd9",
+      "bytes": 15597,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03G-CPU.json": {
+      "sha256": "28fb08181e7d2d4b77ce1185fa79c304e813850af19b3c3a9fd897d91ba3c65f",
+      "bytes": 6978,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03G-L4.json": {
+      "sha256": "5fb5f0a7b3cb52a1468a52670bd9b13cbdf9fc9abe2561bcb7192e1777d928de",
+      "bytes": 3477,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03G-final.json": {
+      "sha256": "7b350ae129bc24ee8949193f5407fd0411aa858c4adb694f326997c810151cd5",
+      "bytes": 4154,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03H-section.html": {
+      "sha256": "0ea4bc5e67992ad76d09096563fdd0b8a6bc9fe3f5e1d41cb17c41ecb97f57c2",
+      "bytes": 5508,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03H.json": {
+      "sha256": "7949ac28d19a8da6633b4914a91e930392f188b0e9472d97c45bbd9712b90b39",
+      "bytes": 170495,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03RF-behavior.json": {
+      "sha256": "8d3660113b5371b606703e2bc7d6ce6c7757852819a9ba27316fa27b9194a924",
+      "bytes": 78357,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/W03RF-routing.json": {
+      "sha256": "31a9396c7241b8a6c8d71429ae361ef35db746dc68290add2b0ffe6c3c80118a",
+      "bytes": 20648,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/accepted-counts.json": {
+      "sha256": "d7f8d04b7196ec7d6f659f107c3fc2cd186b3b59889b0fe4ac1b4c6545e5c16c",
+      "bytes": 549,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/cases.json": {
+      "sha256": "2d89fe2255527f4973e33abeb03364b45fa11ebcc6b774175507ff397f63e393",
+      "bytes": 208227,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/fitting.json": {
+      "sha256": "0e93f40dacaa4e24a6baf724e0d5fadb40ca23abd870eff41b83e46d065b6b06",
+      "bytes": 12518,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/live-history.json": {
+      "sha256": "a9baa71fd601ce682d1d0158bbb8b50134378e9aaf61110def86a73f0222327a",
+      "bytes": 548,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/provenance.json": {
+      "sha256": "beb1d4c27bffccd697fafd18d41becc5b912b4216f0172c5d212a8cf60fecbd3",
+      "bytes": 2564,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/reviews.csv": {
+      "sha256": "6734ca883e341ebb3d593f12a42f269e527163cd08722bfddd59d42bd7c0a48f",
+      "bytes": 24812,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/w02-cases.csv": {
+      "sha256": "deb1a484fcf7b708d83b8915d3c95388b93b574a5ebac123a69cb0309a8a9c0a",
+      "bytes": 45719,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/w02-paired.json": {
+      "sha256": "9377308946ed0808219b181af2642020286f0be81f1cf2824c753168b43cdbf9",
+      "bytes": 8006,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/w02_calibration.jsonl": {
+      "sha256": "146cc86a7ea225ad2b02b4c671ce30c3798dc18c8ca5513287ed561a2a593389",
+      "bytes": 22131,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/w02_split.json": {
+      "sha256": "e4074d175582e6e3537e27a9562e499e728a855063969218f8a4cf07d030ef92",
+      "bytes": 263,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/w03h-counts.csv": {
+      "sha256": "56510c2fdc0bfff187d58b1ce7ac29b546c968fd1e701b8d3e4017a2d95174d8",
+      "bytes": 2794,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/dataset/w03h-main-contrasts.csv": {
+      "sha256": "6e597a4fe8fdbb26edf57b5b8fdfe423c6ace7c0d925c2476f7759cadc558e49",
+      "bytes": 1232,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/space/README.md": {
+      "sha256": "deaa132559d4cedfbc522bc7ff3e3e4229640c8d8d42e28155687f2136d136ec",
+      "bytes": 1285,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "hf/space/index.html": {
+      "sha256": "04a16fbd0b29a21f46bf395697db103f239c562868d94271efd62d51902a261d",
+      "bytes": 262,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/steering/README.md": {
+      "sha256": "5176a0618d9e891c9b7847088709ba44138e88893bab5030bb12383f7400e51e",
+      "bytes": 2901,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "hf/steering/steering.json": {
+      "sha256": "05f8488ae53f651813b5cb76273fd7b77cdb236f208b0c038dfe42d030ca4ce1",
+      "bytes": 1106,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "hf/steering/steering.safetensors": {
+      "sha256": "2d0a37b464b41bc6cd9fb3fb04032e03ffb489e9c167e243280adc4aac37445d",
+      "bytes": 49600,
+      "scope": "model-derived activation vectors; excluded from unqualified MIT/CC BY grant; applicable Cohere/AUP conditions retained"
+    },
+    "hf/steering/w02-readouts.json": {
+      "sha256": "d408f733596a393194906835d98762f28a297037e0874387ea9bf5ad04892784",
+      "bytes": 1521,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "replication.py": {
+      "sha256": "b2966fd47ed1be511a692ef0b88f90885d37ba0d1968d6c711a35b49648cd0e2",
+      "bytes": 20833,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "report.html": {
+      "sha256": "b35dcb708b18d777ebd8a5ef80f39cd2b5eb0f641b0185aa9eebfeca17d71ea9",
+      "bytes": 41750,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/INPUTS.json": {
+      "sha256": "27939dbd41d592c09d19d8b6cbb89fda0144b10b5d1ad03e8de66585cd3e11cc",
+      "bytes": 1517,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/README.md": {
+      "sha256": "be54ac175bf521feb4eb66ff2cd2e67db9f3edd6ce0b978d4c71542908e49a4c",
+      "bytes": 3858,
+      "scope": "original research prose/authored material CC BY4.0 where rights held; quoted upstream and generated content retain exceptions"
+    },
+    "reproduction/STUDIES_CPU_REPRODUCE.ipynb": {
+      "sha256": "6525f8efc3d2e65e0aa6c8e8ce0770e4ad357f416ea58993223516ed7d428ac2",
+      "bytes": 13389,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/STUDIES_CPU_REPRODUCE_V2.ipynb": {
+      "sha256": "f1402613a6d05508b0103869faa73da7a0240c9d245b5c741020a2cac31f2bf5",
+      "bytes": 13809,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/STUDIES_INPUTS.json": {
+      "sha256": "b3eb8d438e953f8dda74ab9e1266f6b0ead07e5e68a114de268e06570220d57d",
+      "bytes": 4012,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/STUDIES_INPUTS_V2.json": {
+      "sha256": "df357f8b6b9be8b934ed099a8100863d24395c2d3882d544ecebc2d362835efa",
+      "bytes": 4015,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/STUDIES_V1_INTERRUPTED_CPU_EXECUTION_PROVENANCE.json": {
+      "sha256": "6c5be8ff2476d73aa50554150acd544336a760b9511bf80fab3be87c454f17c7",
+      "bytes": 11023,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/STUDIES_V1_INTERRUPTED_CPU_REPRODUCE.executed.ipynb": {
+      "sha256": "9f60487ffa89af9e0513341c79022323c5207129ef19add1a1b63413727eb7e6",
+      "bytes": 43566,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/W03H_CPU_EXECUTION_PROVENANCE.json": {
+      "sha256": "03df50c7022439ec0292db7965f0207319bfdca792e36380eda3ee9c7a1daade",
+      "bytes": 10881,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/W03H_CPU_REPRODUCE.executed.ipynb": {
+      "sha256": "048eaa5ed677e0e5cde210e734f805051597de0f48918b24f18c9028a2563a22",
+      "bytes": 42632,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/W03H_CPU_REPRODUCE.ipynb": {
+      "sha256": "cea6c451f6a4afc94fae204f68b168da74eb7da88fe0e94b782c4e57769e1421",
+      "bytes": 12145,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/recount.py": {
+      "sha256": "7770a47a031c837969655c4064913e78e2869c2d88e255366e209baa9f467d28",
+      "bytes": 7283,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "reproduction/reproduction-inputs-studies-v1.zip": {
+      "sha256": "d3d3499ab91c4ccc7418a231b620be5ea801c92bb719432497b84ca7353e296e",
+      "bytes": 1342134,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/reproduction-inputs-studies-v2.zip": {
+      "sha256": "5476fd12a8ea1217e73db0f7012cedd84487a8cf7979721eb80beeacdd48c8fb",
+      "bytes": 1342346,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/reproduction-inputs-w03h-v1.zip": {
+      "sha256": "65dbf4c75c984c2b5461d9b3ff58c98ab0db88935d6d2b20a6f6c3e306227b38",
+      "bytes": 418955,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "reproduction/studies.py": {
+      "sha256": "232680d6a70c0d9684e0b6828ce7371ee8486314e546bc72bc3075a3ceb0801f",
+      "bytes": 15856,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "reproduction/studies_v2.py": {
+      "sha256": "391e2eb6182982df54a61f4768f54672a93234e39f9f45b656a4ef83005e01c9",
+      "bytes": 16757,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "reproduction/w03h-public-reproduction.json": {
+      "sha256": "932bc9ecc7e9f855994515011acc106cd4ee4a32f4efaef6d3ec797ac2592cf6",
+      "bytes": 89776,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "results.py": {
+      "sha256": "72bd81ada257434f9f149106b3bbe931cf16cdb4b5ba089efc35864bac070b68",
+      "bytes": 31012,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "synthesis.ipynb": {
+      "sha256": "25550fd92f9f84579791fc2722a4416a62bf1481c17216c2b4d25d222a42ea01",
+      "bytes": 43386,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "viewer/app.js": {
+      "sha256": "7846cc5575160c2efa0b81de511cbf992713907c5a29ff61c6c9fd6bff88e40c",
+      "bytes": 4174,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    },
+    "viewer/data.js": {
+      "sha256": "8fd43369e28c54f6c2a4a41edd75da1f13e85b8fdb346a5d80b8c532fbd0e2c4",
+      "bytes": 9266285,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "viewer/index.html": {
+      "sha256": "b17baac556f64e84d9835b98fe620683a90cb69a0733b0d99048db5951b01751",
+      "bytes": 2709,
+      "scope": "mixed container: original code MIT; original research/annotations CC BY4.0 where rights held; generated/model-derived and upstream portions excluded from blanket grant; see LICENSE.md and source notices"
+    },
+    "viewer/style.css": {
+      "sha256": "b41b42ad7ed2f68e21f992a93eb72d8a77396b2beef4139fa87d789052c6cf9d",
+      "bytes": 1862,
+      "scope": "original project code MIT; upstream dependencies retain terms"
+    }
+  }
+}

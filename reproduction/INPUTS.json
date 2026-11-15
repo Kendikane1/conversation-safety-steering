@@ -1,0 +1,18 @@
+{
+  "schema": "cpu-reproduction-inputs-v1",
+  "scope": "W03H pilot and heldout; further studies separate stages pending export",
+  "files": {
+    "evidence/REDACTIONS.jsonl": "6b59b74fec9ea256fa10d50fefa3f00b233121b2cd9ebc8eab805192d9690cc2",
+    "evidence/studies/W03H-heldout/slots.jsonl": "e55c383836a5413ea5b8821ccff62c82a7f96507dd8e2ecfef312efb4a3c83cb",
+    "evidence/studies/W03H-heldout/contexts.jsonl": "dbaf8efedfba73741e8d5477cdddc40c45a6436f01c645ac5ccfe39022c80a03",
+    "evidence/studies/W03H-heldout/SOURCE.json": "b0774acc4b4195e85f7c0d16eee34be8d411589ac361f4d977037043bfb3f995",
+    "evidence/studies/W03H-heldout/NOTICE.json": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+    "evidence/studies/W03H-heldout/analysis.json": "520c4c4bc0245fdd224704d9cb51e29187d93a99a5c994c40631596fa5ec1708",
+    "evidence/studies/W03H-pilot/slots.jsonl": "fb3e6d7e29aaf8f25745f04c81a38e566d798087c24e3886c9454b492cd4f648",
+    "evidence/studies/W03H-pilot/contexts.jsonl": "f6ab305e67e59674a65ace3bbdc8c5d345c5d5d43f9bff5400753e8d9cd08f5d",
+    "evidence/studies/W03H-pilot/SOURCE.json": "61d8408f86a51819ec35ea6ab4eddbec05bf3495b32a85b6deb5bf96f410dffc",
+    "evidence/studies/W03H-pilot/NOTICE.json": "f33bcbc4601f5226f9e2bf6a95f97b7a292b0445f083e87274dae2d73bcfe496",
+    "evidence/studies/W03H-pilot/analysis.json": "4c729aec89ceaed81254f30dd0985a452729930cb0522f94b013a229412ac68a",
+    "reproduction/recount.py": "7770a47a031c837969655c4064913e78e2869c2d88e255366e209baa9f467d28"
+  }
+}

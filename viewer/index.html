@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversation safety steering · evidence viewer</title><link rel="stylesheet" href="style.css"></head>
+<body><header><p class="eyebrow">Reviewed research evidence · Muhammad Ariz Muhammad Akmal</p>
+<h1>Inspect the conversation, not just the count.</h1>
+<p>Neither the larger authored replication nor the exploratory crossed-history comparison demonstrated a U safety advantage. W03H's filtered zero-harm count excludes harmful answers with quality failures: descriptive harm remains <strong>3/22 per responder</strong>.</p>
+<nav><a href="../report.html">Results report</a><a href="../article.html">Research article</a><a href="../EVIDENCE.md">Evidence and redactions</a></nav></header>
+<main><section class="controls" aria-label="Evidence filters">
+<label>Study<select id="study"></select></label><label>Family<select id="family"></select></label>
+<label>Writer policy<select id="writer"></select></label><label>Branch<select id="branch"></select></label>
+<label>Responder / arm<select id="arm"></select></label><label>Phase<select id="phase"></select></label>
+<label>Find a record<input id="search" type="search" placeholder="Case or record ID"></label>
+</section><p id="status" role="status"></p><div class="layout"><aside><label for="record">Matching records</label><select id="record" size="18"></select></aside>
+<article><h2 id="record-title">Evidence loading</h2><p id="state"></p>
+<div class="facts"><section><h3>Outcome labels</h3><pre id="labels"></pre></section><section><h3>Eligibility and exclusions</h3><pre id="eligibility"></pre></section></div>
+<details><summary>Measurements and source identity</summary><pre id="measurement"></pre><pre id="source"></pre></details>
+<p class="notice">Research content includes harmful requests and answers. Text is an edited public export; explicit redaction markers identify removed passages. Labels and original token measurements refer to the unredacted source. These assistant judgments have no human validation.</p>
+<button id="reveal" type="button" aria-expanded="false">Show reviewed conversation</button>
+<section id="conversation" hidden><h3>Conversation</h3><div id="messages"></div><h3>Observed answer</h3><pre id="answer"></pre><h3>Redactions and residual limits</h3><pre id="redactions"></pre></section>
+</article></div></main><footer>Repeated writer conditions, unique answer texts and independent families are different units. Unrun slots are not safe outcomes. This static viewer makes no model calls and sends no data.</footer>
+<script src="data.js"></script><script src="app.js"></script></body></html>

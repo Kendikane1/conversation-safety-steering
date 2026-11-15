@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite this research release if you use its methods, evidence or software."
+title: "Conversation safety steering: negative replication and shared gate misses"
+type: software
+authors:
+  - name: "Muhammad Ariz Muhammad Akmal"
+version: "1.0.0"
+date-released: "2026-11-15"
+abstract: "Conditional steering readout comparisons on Tiny Aya Global, including a negative 128-family authored-history replication and an exploratory crossed-history study with shared harmful gate nonactivation."
+keywords:
+  - activation steering
+  - AI safety
+  - negative results
+  - multi-turn evaluation

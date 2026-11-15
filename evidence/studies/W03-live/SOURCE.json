@@ -1,0 +1,19 @@
+{
+  "artifact": "w03-live-final-e7b0086448416265758e0d16a2f2065c22c21201cf5eede152493ee1f4dc8480.zip",
+  "artifact_sha256": "f0f8fa0323f9f865e2c2ec4213c6b77d13110c8a22a0486cc264c17c19db5756",
+  "members": {
+    "analysis/final/3ae328a6643569e02d3e2784286031f261a15177d4710529301f185b24c3f474/6db9367b84e6fc7dae70d8affc5ec9087e77c720d979be8a2b2d03d61005a4a3/returned.json": "6db9367b84e6fc7dae70d8affc5ec9087e77c720d979be8a2b2d03d61005a4a3",
+    "analysis/final/3ae328a6643569e02d3e2784286031f261a15177d4710529301f185b24c3f474/6db9367b84e6fc7dae70d8affc5ec9087e77c720d979be8a2b2d03d61005a4a3/report.json": "9b1b738f04edc6596b48e7310642a31b3941928ca38c5d07e17f0d68f96674ed",
+    "science/live/plan.json": "831bd72bdb24a0f561df5a8a1136de6385ec9899075dc344a162e69371625e77",
+    "science/live/slots/w03-01--deployed.record.json": "b12f5539dd57e4d11ab8baaeabfcb2c800ad6faa34dd71c7442df2ce0e9f29d7",
+    "science/live/slots/w03-01--threshold_only.record.json": "585f94ca793c16b5051989aa6e5d31363e6129ae05f46e6971cbb1127b031bd5",
+    "science/live/slots/w03-01--threshold_only--disallowed--deployed.record.json": "630f463854ffe6fd5955f97b3f0cbafae30906f660c45a510d0ae0f730667f8f",
+    "science/live/slots/w03-01--threshold_only--disallowed--threshold_only.record.json": "d1e1f20405b8dd1ad674806fd75b62018121a94f692a4841616e6d72b3adb367",
+    "science/live/slots/w03-01--threshold_only--disallowed--candidate.record.json": "80f96fa292a7bd4144da2cbdfd863ff8d4b39f643534cb244e3ca6b27e41ab2a",
+    "science/live/slots/w03-01--candidate.record.json": "45c0ec16e0188738aaf8d24d45dbb2c93042e2215b7a2d1cbc9ed86983b48d08",
+    "science/live/slots/w03-02--deployed.record.json": "3fe7e17ebdb9c5a34712ddec2af43bc7672f8d1762f00d5b583ee09c547ff7a2",
+    "science/live/slots/w03-02--threshold_only.record.json": "40b4325eac2febd6b2d6139b4c6817c62efef12f4435c78b526f3906ef49572a",
+    "science/live/slots/w03-02--candidate.record.json": "ab0e36ba9b4b2c343656ed82686275ee03ade6660baa2a3e76a90e0dbcb128ce",
+    "science/contexts/sealed.json": "9ee9c1723992dad3a008af959419539286f47c759250dc08ca8d129b808e90e4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "study": "W02",
+  "role": "Development gate fitting and verification",
+  "scope": "24 calibration scores;32 diagnostic comparison scores;32 fresh U verification generations; replay rows reuse existing outputs and are not new model calls.",
+  "model": "CohereLabs/tiny-aya-global",
+  "model_revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "evaluation": "Assistant-only judgments; no human-validation claim",
+  "original_counts": "Token counts/gate scores describe private original inputs, not redacted exports",
+  "upstream_terms": "Model-derived content retains upstream restrictions; original research CC BY4 only where rights held."
+}

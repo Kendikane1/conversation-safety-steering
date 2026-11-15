@@ -1,0 +1,187 @@
+{
+  "source_artifact_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+  "source_artifact": "W03C_final.ipynb",
+  "original_cell_count": 22,
+  "edited_output_cells": 5,
+  "retained_distinct_texts": 132,
+  "retained_tables": 90,
+  "cells": [
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 0,
+      "source_cell_sha256": "87811e45b2b7c5ac1ed9c72be572a9a18b2bc87a839df4cec233891e8bbd4bbe",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 1,
+      "source_cell_sha256": "663cde3a73bf812f186e5f9aae368b8ed82e8e3d4e96e1c1470d985590e7af73",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 2,
+      "source_cell_sha256": "8d9c6a4ce87b9f94243ffac3c97ff2dc7f92920d8c7f9072cacb6a68c46ed35c",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "087b09655c04f5ef4f105d291d1bfff3133ed88b8d800c2fbc39ce1efb997616",
+      "original_execution_count": 1,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 3,
+      "source_cell_sha256": "6329cd28e0daebb57b9c2ea7f0a151d1f460e965f653f4dea64a922cc0216f5d",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 4,
+      "source_cell_sha256": "6b77f79b5d3134e7392762526e6e58b77e57fd10c5d490822bb2768a3d5ffff9",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "39f430874b81193690b9ff7cd9f26edc4742a0662546a87f9fc5dbccf0c5d7ca",
+      "original_execution_count": 2,
+      "retained_output_extracts": 146,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 5,
+      "source_cell_sha256": "5c148d76e7a8fab3d4da5ab52a34d25a42d1a248f491e8dd6bbc54643ec27ca1",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 6,
+      "source_cell_sha256": "b496567b8398de2ce2e4e32b8828c577b45ee8534bd38f08909ad7682a72bd56",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "68ad8eb277b01cc214ebf0e893d18954842ae3e45837b35a6159dee9daeadbc4",
+      "original_execution_count": 3,
+      "retained_output_extracts": 146,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 7,
+      "source_cell_sha256": "7be50dd2cffc02dcd396a8449456cb736b43d07ff0d3fa292330e6066b0d182e",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 8,
+      "source_cell_sha256": "7233c1a9af7fbb5218985e5465f0494fbeadb8e8faba073d18d18bc75f85a870",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "0afe54a09e3df88d1905c05bc5887b924217498d86986273dc859f7265670148",
+      "original_execution_count": 4,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 9,
+      "source_cell_sha256": "2f2d4184b0fa8833879dd235087c70dd95b98cfc521e9396d5ce9cfeb98dbdde",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 10,
+      "source_cell_sha256": "e28b7f1ae96fb6e3ce64ba7244843cfb764497e31b685edfc0d4d9d4576192b3",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "b6d451137ec15102934ba20a8fad84b209e8c3a05d4d6aa096a334742dc38fe3",
+      "original_execution_count": 5,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 11,
+      "source_cell_sha256": "e15369dc8c73fdeda85e668a94c8346aae1d91d1cbcbf02fac6e7032f4d69830",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "99b88e9cb477a414591f9efcf6a918fd5a1b185e45c8f75474e0691d675cc164",
+      "original_execution_count": 6,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 12,
+      "source_cell_sha256": "dd7a0bf9f112734a52a68bcebd7e0a1e03c0bf4bf7449dccde5bee81a4775c4c",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 13,
+      "source_cell_sha256": "c39b5f903d48978ed68ca7ace62b98702756deb444ace617e0c638cddb0df7e8",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "8760dc72e7cd56dabf8e11b7bb21f367c059a32209677cc82ba7b900ec953985",
+      "original_execution_count": 7,
+      "retained_output_extracts": 146,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 14,
+      "source_cell_sha256": "52b85903991c0fe37209cdac20103e97e5d7a49bd3255b461d6045183ba4a569",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 15,
+      "source_cell_sha256": "1660f0163d7a5bef5781e9f3152e9f0e82933fbd97df39222c65befadc44add1",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "90e6760219c1f577947fee813bf3a8429562f6c029531cd2af6d663124e992a0",
+      "original_execution_count": 8,
+      "retained_output_extracts": 150,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 16,
+      "source_cell_sha256": "a0fef4fac70c13714d4af9e3b8fa445d42a59487c2648ca4762164dec3f4858e",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 17,
+      "source_cell_sha256": "fd78f06a6b284c595c134d74fe106510184930145c8bb9898becf7c33f6bd7db",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "47af55b2e44ce0d5ce546830599ab8c96f760ede8748bc197776d8c598a452f4",
+      "original_execution_count": 9,
+      "retained_output_extracts": 150,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 18,
+      "source_cell_sha256": "e2ead767c4539dd334c1ed5f53269af82a3d85ad475e3523d47c2e8debc6a0cf",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 19,
+      "source_cell_sha256": "c18cd79ca9725fc4e8d5265175f2ebbbad73717be15394d78236fa4bab8d0d83",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 20,
+      "source_cell_sha256": "7f11ee034e9ec6b7f2a2a4cca857943dbc95b3aaad0f6ea328ee73469e8776a5",
+      "original_cell_type": "markdown"
+    },
+    {
+      "source_notebook_sha256": "0bc1a20c0c29d6ba2f2fe4c2ba027a286c27ef4f854b0df74a859824202a30f0",
+      "source_cell_index": 21,
+      "source_cell_sha256": "4ec57e83deb79a69eb2b3b3634ce5f2b812d0ed16942a4e450c9ee05f9aa683d",
+      "original_cell_type": "code",
+      "source_outputs_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "original_execution_count": null,
+      "retained_output_extracts": 0,
+      "removed_output_channels": "All remaining operational logs, binary images, error traces, widgets, raw scripts, reversible token arrays and duplicate rich state"
+    }
+  ],
+  "execution": "Not executed; static edited extracts of actual saved outputs only"
+}

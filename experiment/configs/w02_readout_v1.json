@@ -1,0 +1,96 @@
+{
+  "condition": {
+    "condition_layer": 27,
+    "threshold": 0.3700000000000012,
+    "comparator": "smaller",
+    "pool": "last"
+  },
+  "behavior_layers": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "generation": {
+    "batch_size": 1,
+    "max_input_tokens": 512,
+    "max_new_tokens": 1024,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "cache_implementation": "dynamic",
+    "eos_token_id": 3,
+    "pad_token_id": 0
+  },
+  "seed": 20261103,
+  "vectors_sha256": "73f06d33c8ab99908b903cb32cf2c723d610e4cd29e2f3af129933b34266823e",
+  "calibration_checkpoint": "69095a3a968b99e3f969582dea1a192ca85526360aa02b97d3ff11e7f3d47fc0",
+  "protocol": "W02-readout-v1",
+  "model": "CohereLabs/tiny-aya-global",
+  "revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "alpha": 0.0625,
+  "seconds": {
+    "calibrate": 1200,
+    "compare": 1200,
+    "verify": 2700
+  },
+  "budget": {
+    "calibrate": [
+      24,
+      0,
+      24
+    ],
+    "compare": [
+      32,
+      0,
+      32
+    ],
+    "verify": [
+      32,
+      32768,
+      32800
+    ]
+  },
+  "budget_columns": [
+    "gate_prefills",
+    "new_tokens",
+    "forwards"
+  ],
+  "readouts": [
+    "B",
+    "L",
+    "U",
+    "D"
+  ],
+  "grid": {
+    "integer_min": -100,
+    "integer_max": 100,
+    "divisor": 100,
+    "replace_37": 0.3700000000000012
+  },
+  "fit_order": [
+    "maximum balanced accuracy",
+    "minimum allowed openings",
+    "minimum distance from deployed",
+    "minimum numerical cutoff"
+  ],
+  "nomination_order": [
+    "maximum balanced accuracy",
+    "minimum allowed openings",
+    "L U D"
+  ],
+  "w01d": {
+    "final": "ccb935d0033a07af54a2ee76572846f9d1fb9a8eb55ad39f511dfd2f69e9a817",
+    "review": "c5fc6e0ceecb84b0000173dce46a97b02d0ab1cd75f176fd8c5ac48f1159a501",
+    "diagnose": "22110ae9dd3dca3064bc4dbae5f7e173291290cd3224be6710423ac237491bff",
+    "package": "a6a1aa1d1d7680b5a5cf9d72e26bac1e731e5ecfbc15019d1e39e1d2b6a06f88",
+    "labels": "4d27b6490a1df841304aff077457e0c38a233f4058481954ad59b6a0222c4332",
+    "archive": "915945bd9c2a034579e133abfd3e32598d8476e38c6bc5ef074d445654ae52f5"
+  },
+  "fixtures": {
+    "w02_calibration.jsonl": "146cc86a7ea225ad2b02b4c671ce30c3798dc18c8ca5513287ed561a2a593389",
+    "w02_split.json": "e4074d175582e6e3537e27a9562e499e728a855063969218f8a4cf07d030ef92",
+    "w01_diagnostic.jsonl": "5dab123ea301c5ece60b788a8ec2a08c469777c4ebf031098367950c769854b5"
+  }
+}

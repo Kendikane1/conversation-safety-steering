@@ -1,0 +1,45 @@
+{
+  "model": "CohereLabs/tiny-aya-global",
+  "revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "dtype": "bfloat16",
+  "toolkits": {
+    "safetune": {
+      "url": "https://github.com/Lexsi-Labs/SafeTune",
+      "revision": "3901a9f48a88984a181c8c9493be2d3a20ab160f",
+      "license": "LSAL-1.2"
+    },
+    "auditkit": {
+      "url": "https://github.com/Lexsi-Labs/AuditKIT",
+      "revision": "71316da345784ff220d5ed59337441a59ab31526",
+      "license": "LSAL-1.2"
+    }
+  },
+  "seed": 20261103,
+  "generation": {
+    "batch_size": 1,
+    "max_input_tokens": 512,
+    "max_new_tokens": 1024,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "cache_implementation": "dynamic",
+    "eos_token_id": 3,
+    "pad_token_id": 0
+  },
+  "behavior_layers": [
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "condition": {
+    "condition_layer": 27,
+    "threshold": 0.3700000000000012,
+    "comparator": "smaller",
+    "pool": "last"
+  },
+  "alpha": 0.0625,
+  "rule": "raw_score > threshold",
+  "source_tensor_sha256": "73f06d33c8ab99908b903cb32cf2c723d610e4cd29e2f3af129933b34266823e"
+}

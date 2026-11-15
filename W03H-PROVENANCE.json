@@ -1,0 +1,24 @@
+{
+  "schema": "W03H-public-provenance-v1",
+  "aggregate_sha256": "7949ac28d19a8da6633b4914a91e930392f188b0e9472d97c45bbd9712b90b39",
+  "accepted_source_package_sha256": "875043f0456c130985ff153bc1319d5110b8bd41e7299d8eb1211b0639055d21",
+  "source_notebook_sha256": "c17873497a36a07185ef7984865032fd4d0b5b4512b92064058fd4e382c7553f",
+  "private_execution": {
+    "accepted_preannotation_sha256": "ef2be72e4b0754022f93d3b9ecb396315d84b29aa8316e08b70accd4fd054d18",
+    "annotated_sha256": "5e55d61cae8776bdc5091157fe33f999a73778653616097741c600e8960cb046",
+    "annotated_cells": 81,
+    "original_cells_and_outputs_preserved": 80,
+    "appended_markdown_note_sha256": "126cf5e7315e3d833f055290440c2373644d4353c7a5d37a9ea1b37277c7bbf0",
+    "access": "Private; hashes only. Central verified identity and unchanged original execution. W04 did not read or copy operational notebook."
+  },
+  "historical_synthesis": {
+    "path": "synthesis.ipynb",
+    "sha256": "25550fd92f9f84579791fc2722a4416a62bf1481c17216c2b4d25d222a42ea01",
+    "code_cells": 11,
+    "w03h_results": false
+  },
+  "new_execution_in_release_preparation": false,
+  "w03h_public_reproduction": "Expanded reviewed row exports and separate CPU recount source; original execution remains private. Consult operator execution record for verified replay status.",
+  "public_source_notebook_sha256": "9a144072be3ed5df78a03480c1ae939951c51a49164cff26aeb7eeaaf301998a",
+  "source_notebook_sha256_scope": "Historical accepted original; edited public copy has separate identity"
+}

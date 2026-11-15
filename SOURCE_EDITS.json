@@ -1,0 +1,47 @@
+{
+  "scope": "Public source edits; original accepted source identities remain historical, not hashes of these edited files",
+  "changes": [
+    {
+      "path": "experiment/colab/conversation_diagnostic_v1.ipynb",
+      "original_sha256": "c6d98b02e3c2a4788fdc2978c530bc8c6be018f3c6514e32efc072013219c450",
+      "public_sha256": "aec83d6ea87827da2978e39843962a33850f9be676de93b9649bd34ac8a51859",
+      "changes": "Private runtime directory replaced with generic relative directory; original ZIP basenames and notebook punctuation retained. Algorithm unchanged."
+    },
+    {
+      "path": "experiment/colab/conversation_launcher.py",
+      "original_sha256": "ca5cd68517cf49fde9ab6f76739b445a841d3c23f0087dd4de80031a42646558",
+      "public_sha256": "1a3e73c01a3223327afc4bdbd1f29a94fa795abc4a6c103d96d4f619c277eb1e",
+      "changes": "Private runtime directory replaced with generic relative directory; original ZIP basenames and notebook punctuation retained. Algorithm unchanged."
+    },
+    {
+      "path": "experiment/colab/gate_readout_comparison_v1.ipynb",
+      "original_sha256": "e5247b33e087566748dad89703c00b62834a6722f34790cd03cefeafcf7f19c4",
+      "public_sha256": "af36b23cdcfb9a399ad162e6921069ebe0cda58b78696b5ae99fed39504684a6",
+      "changes": "Private runtime directory replaced with generic relative directory; original ZIP basenames and notebook punctuation retained. Algorithm unchanged."
+    },
+    {
+      "path": "experiment/colab/readout_launcher.py",
+      "original_sha256": "64b7191ae864d8ba8d71b21457b85081e76e6e8a984769e7223d7e26acd02bf7",
+      "public_sha256": "a64b9ced393f3cac1c834794e430b3c8303e86249b64a4b4ccbd2dbd05a2fd29",
+      "changes": "Private runtime directory replaced with generic relative directory; original ZIP basenames and notebook punctuation retained. Algorithm unchanged."
+    },
+    {
+      "path": "experiment/w03h/PROTOCOL.md",
+      "original_sha256": "a8fe318d0bd91547a30574c129a5c1e1126dc588788228c42d2c192f25c33420",
+      "public_sha256": "6a5873552c3bbe4ca05777006ca687c6e4ba794b3a90d3ea7f5caa8076880114",
+      "changes": "Private operator identifier removed and/or private storage defaults replaced with generic relative examples. Algorithm and recorded results not intentionally changed."
+    },
+    {
+      "path": "experiment/w03h/W03H_CANDIDATE.ipynb",
+      "original_sha256": "c17873497a36a07185ef7984865032fd4d0b5b4512b92064058fd4e382c7553f",
+      "public_sha256": "9a144072be3ed5df78a03480c1ae939951c51a49164cff26aeb7eeaaf301998a",
+      "changes": "Private runtime directory replaced with generic relative directory; original ZIP basenames and notebook punctuation retained. Algorithm unchanged."
+    },
+    {
+      "path": "results.py",
+      "original_sha256": "1ccd7399b5625b6848ab383a3ebfd32e706a2eebcfa2b2d03c2429124fd7904b",
+      "public_sha256": "72bd81ada257434f9f149106b3bbe931cf16cdb4b5ba089efc35864bac070b68",
+      "changes": "Historical renderer writes historical-report.html and historical-case-browser.html so it cannot overwrite expanded public pages; numerical computation unchanged."
+    }
+  ]
+}

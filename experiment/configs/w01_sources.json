@@ -1,0 +1,612 @@
+{
+  "schema_version": 1,
+  "inspected_utc": "2026-11-03T07:34:29.353252+00:00",
+  "repositories": {
+    "safetune": {
+      "url": "https://github.com/Lexsi-Labs/SafeTune",
+      "revision": "3901a9f48a88984a181c8c9493be2d3a20ab160f",
+      "license": "LSAL-1.2"
+    },
+    "auditkit": {
+      "url": "https://github.com/Lexsi-Labs/AuditKIT",
+      "revision": "71316da345784ff220d5ed59337441a59ab31526",
+      "license": "LSAL-1.2"
+    }
+  },
+  "files": [
+    {
+      "repository": "safetune",
+      "path": "LICENSE.md",
+      "sha256": "a3f3380163ba175405369747a0600d7f464e7d697617f3b597a9317611953c31",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/SafeTune/3901a9f48a88984a181c8c9493be2d3a20ab160f/LICENSE.md"
+    },
+    {
+      "repository": "safetune",
+      "path": "pyproject.toml",
+      "sha256": "e09ef46ccfe1d5324801b2d31a15c4bdc46a9d6fcf1be27f3fc1c912dbf51593",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/SafeTune/3901a9f48a88984a181c8c9493be2d3a20ab160f/pyproject.toml"
+    },
+    {
+      "repository": "safetune",
+      "path": "src/safetune/_refusal_helpers.py",
+      "sha256": "4ef0673387b537ece67e5e3873eb7c6e3db6f4a840d53f15b3bce1d9a1c20d93",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/SafeTune/3901a9f48a88984a181c8c9493be2d3a20ab160f/src/safetune/_refusal_helpers.py"
+    },
+    {
+      "repository": "safetune",
+      "path": "src/safetune/config.py",
+      "sha256": "3f3d3c75c2a610bf35f9b1a5b80f7d26ee9852f13b21710c86ace0cd87d0d251",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/SafeTune/3901a9f48a88984a181c8c9493be2d3a20ab160f/src/safetune/config.py"
+    },
+    {
+      "repository": "safetune",
+      "path": "src/safetune/interventions/steer/cast.py",
+      "sha256": "914e0b695d8717bf461b57e6ec1c73a89ce8a3f7adb173a3bfda1a013817e3ea",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/SafeTune/3901a9f48a88984a181c8c9493be2d3a20ab160f/src/safetune/interventions/steer/cast.py"
+    },
+    {
+      "repository": "safetune",
+      "path": "src/safetune/interventions/steer/caa.py",
+      "sha256": "03a069ba03287a11914b835df7095b5d0474c36d017b86d7de0ab3c7dce53afa",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/SafeTune/3901a9f48a88984a181c8c9493be2d3a20ab160f/src/safetune/interventions/steer/caa.py"
+    },
+    {
+      "repository": "safetune",
+      "path": "src/safetune/core/runtime/inference/vector_extraction.py",
+      "sha256": "60a757f46e0476b91ecb3cd75fa56d9e480eb0d6eb1f3972696e7367142cd20c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/SafeTune/3901a9f48a88984a181c8c9493be2d3a20ab160f/src/safetune/core/runtime/inference/vector_extraction.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "LICENSE.md",
+      "sha256": "1b9b7db5022c6f63c4a8e11f3f5ad3d8b2c1f4170836d3b82dd2a31322ba6b2d",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/LICENSE.md"
+    },
+    {
+      "repository": "auditkit",
+      "path": "pyproject.toml",
+      "sha256": "0b5212631958f45f8ae593ce31c82bc3994c31f7473479b888a59886aa80b8c3",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/pyproject.toml"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/__init__.py",
+      "sha256": "b0e6e76ce84bb6c57494d24dd1206110d6aea72ab669b69553532667a134185e",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/__init__.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/__main__.py",
+      "sha256": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/__main__.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/_bootstrap.py",
+      "sha256": "a85975ae27ee4f93a5222d735c4814b2e6ca32a855bb40e7d8964f62d2071fbe",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/_bootstrap.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/_identity_guard.py",
+      "sha256": "e7faf9fd527651b0620fe5ebd3726bede21918c89c4369f1e1c61817ec0c7686",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/_identity_guard.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/adapter.py",
+      "sha256": "b2b94f02af0082f9a45ef685d86824574a2b0823c5b78cd3c5bb7a2ee15b59de",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/adapter.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/__init__.py",
+      "sha256": "1ddbd3e251849d581b15ef29d93671fe867c9b85af9dc4e2f382b735f6abf424",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/__init__.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/importers.py",
+      "sha256": "f782879b95092d0e4077565a9fb2b65d5722227c5cb1a1d7947512f09310ecb0",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/importers.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/lexsi.py",
+      "sha256": "62fdf76003d2f85504b42b532a0cf453f51ac85115438e3c74910ce35114f8ae",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/lexsi.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/outcome.py",
+      "sha256": "6504ffa10caaafe0dec56933c99a6a0492898906bfc2cbee873fe09b58841c6a",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/outcome.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/reliability.py",
+      "sha256": "8f05b81335c7ff5d8d8391706e1f5f7a3eea1a920c4f84d1043b3f0d51813ffd",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/reliability.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/report.py",
+      "sha256": "e2dd01729fae8f45a12fec32f2b819bee983b03e2d2ac0b6914f6278ab8777f5",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/report.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/runner.py",
+      "sha256": "b961c824c5541b650b0fb1a2ca1f17f28a0393013ef5bc863944b65972236f6b",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/runner.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/sidecar.py",
+      "sha256": "4c0e7f80e3230f936a3259b944e071a5b7c1c49ed990b8d991356bfd3da18339",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/sidecar.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/agent_eval/types.py",
+      "sha256": "77466ee7c42685e0f0fe2ab2258d241979b182d314bcbc6091230e3cc368f566",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/agent_eval/types.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/annotator.py",
+      "sha256": "a201df7b058f0c5b0963d88009b6ed348a64ea6b1993be844da224d8100097da",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/annotator.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/api.py",
+      "sha256": "6aa061e5dc1c410a52240ea45d42dd2e694f4a37eb5df68899c1a79d9c0e66bb",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/api.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/bfcl.py",
+      "sha256": "1611f8d03aef3d80654c7e333a30f549a769c49d9e9b8ebc79233a67a4a3f791",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/bfcl.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/cache.py",
+      "sha256": "1e33893adeb9ce0219c7ddbeb63ce1152cd5a94e2c45bfa265f5801abca7a444",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/cache.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/cli.py",
+      "sha256": "90d21a7a238561cc51b1181b051c9fe6b2fab0fd2776b17e70fb6e8734505a06",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/cli.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/comparison.py",
+      "sha256": "9e93b29ce9d338494e853c7e668f2f46460cb0cc347075dd6eab96c955d25b97",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/comparison.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/compat.py",
+      "sha256": "ff213b46c4c7bc4dce3479965f838a10018d981245a4c37f218463112877832f",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/compat.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/diff.py",
+      "sha256": "dc956dffec49bdbcddddfd5731c4e672a005f6efbd352a994a6335deb527ff70",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/diff.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/errors.py",
+      "sha256": "924fb0f987a83a2acbfbb3b0b52d2873acbb2447fa81dbd252b06eaa79105c1e",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/errors.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/evaluator.py",
+      "sha256": "5f09e126738384747d57aa6a520703e0a3a863450fe70e15ac08cefb69dd7fc6",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/evaluator.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/experiment.py",
+      "sha256": "367b7d0441a27c97e39d604126da397e53e8e6060b6a0a401febd75d24837cf3",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/experiment.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/hf_publish.py",
+      "sha256": "f34c7f175fc3d76375403134301011a1916d000316c9e6ba3418077b181a1b0a",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/hf_publish.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/lexsi_login.py",
+      "sha256": "a90a99f7bd8719958ef1de79eeff7a9e7b8ef6e8fae92c5b700b76514ccb0bd2",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/lexsi_login.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/lexsi_relay.py",
+      "sha256": "fd2d15f3db11de0a07fe43cb2b393051c3c7132017f8abc2932a731710c683d0",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/lexsi_relay.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/lmeval_engine.py",
+      "sha256": "0ae661555e9bd24284ce587253c854e9001c93574b73832a71e900b443c23819",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/lmeval_engine.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/loaders.py",
+      "sha256": "b6bf29daf24ba76405c5af72bfc55e06ad9f47d06940efae3da87a77520c4d0c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/loaders.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/logs.py",
+      "sha256": "53eff41107d906ae55d29fc3e68642c13ed4d031e8d5e694c85cee091a3f0e9e",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/logs.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metric.py",
+      "sha256": "47c4c341a80c54703f437b33f69b4f47faa69d8fc1c21bdc330af92091f04188",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metric.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/__init__.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/agent.py",
+      "sha256": "15acd322ba019bcc300adf281e7304757d9f7e99ae0fcd171d0293b3b1125f1a",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/agent.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/code.py",
+      "sha256": "da49b77701b358c9b6bf036ea66256a7eb0089e0a95efad9c69713df3278da45",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/code.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/embedding.py",
+      "sha256": "a7d8c64fa714cfa1dec029561dd980575fdcddad24fbef050e7a5696e7c7106c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/embedding.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/encoder_judge.py",
+      "sha256": "20933bfdabdc02a2259a392199802c957d076bfbb1dfc18f06d6863c07478e9c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/encoder_judge.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/generation.py",
+      "sha256": "3d5965756bca9c9944b7853b8e30020f35233bd9af40ff267be67ed2ab4bd1e6",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/generation.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/guard.py",
+      "sha256": "126b74a1e3f931a1a3bb7fe63c919aaefaec54d055ea8d0f6422c7a21b9d7f02",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/guard.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/hallucination.py",
+      "sha256": "98be35f0f1015202853f506c5704b2f989a9f90c3fa327a31ef8075b6acc92ac",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/hallucination.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/judge.py",
+      "sha256": "d9a0d80718a61ad54f46da022743192ae1f4a024cd93d337bfdf9c6359bf70ea",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/judge.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/pairwise.py",
+      "sha256": "a28702d8c9d3576f481dafa7e46479ed758854fd5c36a99f5b8b356a7c6687eb",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/pairwise.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/perf.py",
+      "sha256": "e0af0d043c87b9a0a9a0dde7e7c7e2c5c25c02de8a9572c6cdf65bb61e8fa816",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/perf.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/rag.py",
+      "sha256": "93d0e09578a26e7adc3ce2e0e63bfe0d1f7b2574ac4fe2898b79b84919c2676c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/rag.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/rag_judge.py",
+      "sha256": "e9beb789d84d0e99e95eadb7116e3e19a2ee0f39f49af5cb505045ebc0f1a950",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/rag_judge.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/rag_stress.py",
+      "sha256": "8237009231a68fe02203d2e4ef0edf6ab8b74adfe57b5d94d148dce1a8f2ed81",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/rag_stress.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/rag_stress_ops.py",
+      "sha256": "ec7b20fde23dc55a980d9c76e6d8781bcec4e8f80a1445938f4a7bd97b09302d",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/rag_stress_ops.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/rag_stress_runner.py",
+      "sha256": "ef5cc79b3bf73cde7468e7ffb413b365a2960f63c85fe6050e169bf2a326302c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/rag_stress_runner.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/retrieval.py",
+      "sha256": "0a1550d95d1dcc4eea68d85925a94b8f1ddd15136639ef6684a3df13ab295338",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/retrieval.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/security.py",
+      "sha256": "fe68aa756674f89a5f8e087d73e1fd4a7b794007b655218cb1b7cd9cd22b978f",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/security.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/metrics/toxicity.py",
+      "sha256": "733ace2d0c6547d179df3d13a2f9ba46fd8da09ec1d858ac660fb6d13f4d03ed",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/metrics/toxicity.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/__init__.py",
+      "sha256": "5a3f7981715096884fb3d9a9d74901cfcfc9e05535e8bc2a381d22f1e5238d20",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/__init__.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/agent_endpoint.py",
+      "sha256": "bbdedc986b6177400ca24641403adb4793977f82eee972150eb7468b7b861a52",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/agent_endpoint.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/anthropic.py",
+      "sha256": "17c56b977eb013f738c7cf04c4b47a516a9efc62607f593160274ddb15f13084",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/anthropic.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/api_gen.py",
+      "sha256": "dba2d3bd91b6c11779385b6713205a86c78a145fab7b6079efeed494877293ca",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/api_gen.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/groq_gen.py",
+      "sha256": "d398a079746d0db9901e57760c0deb8da0889fa2aeebdf270fb3e5588b29116b",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/groq_gen.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/hf_gen.py",
+      "sha256": "5c1688c92723d1f5d82b9976e77cd76e8df5be58127a368c4dffe207431bdd96",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/hf_gen.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/lexsi.py",
+      "sha256": "598c60a45f3a97f3542389b8ec95921eb6fa685bbd1c8f9f5eaa81f47b855585",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/lexsi.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/litellm_gen.py",
+      "sha256": "6d5a637f37bb3e7894507e429ae6b4dd1b4145a24b3d1b7b9cd6860a6a1d916b",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/litellm_gen.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/openai.py",
+      "sha256": "da1c177cf8e6f25b773a7de2131d2cac63929fe7f3e80f23643c16f34db0f22a",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/openai.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/openrouter_gen.py",
+      "sha256": "163081bc33602442d374f7da62a7c78261c8c4765b417259435e1288492d7829",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/openrouter_gen.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model/vllm_gen.py",
+      "sha256": "dc2c91ff3cb6f31ae065ccf7a8a9e099daa07445acafd9bcdbc3f75846b8fa7c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model/vllm_gen.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/model_compare.py",
+      "sha256": "fd2f07688fab0c057928a9725d5a435118d7e6c3bfb9b1036c12b6fab184b2cd",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/model_compare.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/provenance.py",
+      "sha256": "228171b89edf87d425c9504cd062ee66b08acfcfe710f3f94c4d806d9d2b444d",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/provenance.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/redteam/__init__.py",
+      "sha256": "a59731fa1741d321a591530400f76beed16ccbb3f99a98d51a9d59fe8de48e48",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/redteam/__init__.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/redteam/detector.py",
+      "sha256": "a31bdd020f927773bfe92ed21986353d33466cea26a538d54fe7a7c2304a8925",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/redteam/detector.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/redteam/detectors/builtin.py",
+      "sha256": "4ab2fda7af0862ceb74cb42df2076bb8f8c3044244c7c377eb0c413f637b9aca",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/redteam/detectors/builtin.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/redteam/probe.py",
+      "sha256": "163dc16f5d5120c5789b8c23bb70e0e3a30acd506226011257cc0f2e95385b6f",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/redteam/probe.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/redteam/probes/builtin.py",
+      "sha256": "673e1ec2489f37eeabb8346a53ee134cd7feefdcf114206e6f25d791d90546d8",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/redteam/probes/builtin.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/redteam/runner.py",
+      "sha256": "e14a10cfef427001ca262041a71a81503a02c19d2ed665ce2e48ba7a6814c9d2",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/redteam/runner.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/registry.py",
+      "sha256": "ef5268def0a55c147ccbf6784034addf0e8e30afa7ba74e4046157177cf4e27e",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/registry.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/report.py",
+      "sha256": "628798749c126db7d451938ed8250de52b8042360f959cd53155b22c768920a2",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/report.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/report_format.py",
+      "sha256": "3066cafc51f7c2767d35b6368ff57d3498a55655da4f3f96379c101342ef2b31",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/report_format.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/router.py",
+      "sha256": "ed3803895ab58507a7db025852f8b6c5fa707253a9a8e5403d08a47961f06b5e",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/router.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/runner.py",
+      "sha256": "a0090337dd84a8cff8d6cbf385a2e5e9ad3eea8950a21c8b0e5a843a583b346c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/runner.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/runspec.py",
+      "sha256": "65b65a2649c819bc131c84e3081c7feda9c8b257ba169ad06fd2aba757a7501f",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/runspec.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/sample.py",
+      "sha256": "497b3f7b0b5676a8266d274ee61ffa8056cd77776b2149c5baa33ee747a7635f",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/sample.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenario.py",
+      "sha256": "9fbc246e6eed9879736ba32a3dfad252d5e78757776217a99701c114e2b1e156",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenario.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenarios/__init__.py",
+      "sha256": "24b2c09df63aeb0fa1bd7b8c40e8592bb84deeb832b9bb7ec87dc9263efe7392",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenarios/__init__.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenarios/arc.py",
+      "sha256": "02a6c7119fbed5ec52ba721a35d7110cd875458f157df1da143aa4fa297f35d5",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenarios/arc.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenarios/gsm8k.py",
+      "sha256": "2bac93aa9ae6f1c0caf3456eb42e13af934f4b06432efeffe5477424debb0c30",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenarios/gsm8k.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenarios/hellaswag.py",
+      "sha256": "f6e503542204b651cfd835f21957a112e0dba2ffaaf7a08db323bd6903ca460a",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenarios/hellaswag.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenarios/humaneval.py",
+      "sha256": "b632ad20b5d617cab7c7a545197a2dd1e2a85bd59c2f85c7e6ce2d5192ca99af",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenarios/humaneval.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenarios/mmlu.py",
+      "sha256": "b43fada09c93eb29b049e0897132c61dcc3564b38329ac741e8c76d304ee1304",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenarios/mmlu.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scenarios/truthfulqa.py",
+      "sha256": "b746f04dd606fb2ade0454d670cafec7a3eed6f7b47e91895dabb84ad5660382",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scenarios/truthfulqa.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/score.py",
+      "sha256": "e118ed6c2e7d8273d0d5b5700da1abc3b86a9fb7719bfecf89530b0d5277e065",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/score.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scorers.py",
+      "sha256": "68ee42d9906fd90c994b0f9793f18d57137bfd786a82276c962b97c922191f6c",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scorers.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/scoring.py",
+      "sha256": "61abe19e53b64ed0509fe414d1e64c218519e3e2808d06b5056372b590b25936",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/scoring.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/trace.py",
+      "sha256": "275dcf49fada987c2dc269f4b8d660ee17877202437b5877278e6426370daf80",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/trace.py"
+    },
+    {
+      "repository": "auditkit",
+      "path": "src/auditkit/types.py",
+      "sha256": "624700e698d102da591ab04cda05ea293e9d37f74216a4080904eee01804a6ff",
+      "url": "https://raw.githubusercontent.com/Lexsi-Labs/AuditKIT/71316da345784ff220d5ed59337441a59ab31526/src/auditkit/types.py"
+    }
+  ]
+}

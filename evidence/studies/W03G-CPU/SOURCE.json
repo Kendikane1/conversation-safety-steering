@@ -1,0 +1,40 @@
+{
+  "artifact": "source.zip",
+  "artifact_sha256": "5242390e05e384a26fd48dec74dacb9cd7edecb5672dab0d39d0ce6a41179b23",
+  "members": {
+    "records/d09--deployed.json": "5d779734d77fb64711fbe1e8f1df4bcc70277da39f72c2fe3672e7298f81cbb1",
+    "records/d09--threshold_only.json": "ec0a4aff7889ddd4c70549422b9ca0ed3bfb3fbbffe19a7154194ad759d8f53e",
+    "records/d09--candidate.json": "d9662aba0f3d451f180f82d4289792f0ce8f76df962458da0aaedfd89106914b",
+    "records/d10--deployed.json": "427dcdace9d3fd984fc9505a6b370a37ef35da5348e4999f33b247816e192c99",
+    "records/d10--threshold_only.json": "2683e8675e32b2126c73fe6d57205c660341f5f756762c19b1554474d05aedbb",
+    "records/d10--candidate.json": "04a7ea93414e6aa55b899c16e9fbd895680f9dcfb9e00f0252a3642e5e01d206",
+    "records/d11--deployed.json": "1fc93bc5d2177c48567e0eb8e213a2bcb6935497378ca076f761b769941439c1",
+    "records/d11--threshold_only.json": "c45ac356660429a8f35272a5dd0f9edc2951493bbccae5ea2b987884984d1a8f",
+    "records/d11--candidate.json": "6c59694547d408f61a576ee547519bdc7d8629a9fd1a836c658e1a13862c2b60",
+    "records/d12--deployed.json": "708d25ef5c37dc88f824dfe242341621d2c48c5ceb6c8159fc2a2fdc9a40746a",
+    "records/d12--threshold_only.json": "3a2b4c7767dbd432c32275c79b89c4419158de65e825512b2948b60cc47e7fe5",
+    "records/d12--candidate.json": "b0ba7f5185888a78faf6d666437323cd0df41e293862e28ec83e478859f7078f",
+    "records/d13--deployed.json": "310559d5a7bbe83101eee6e3c71cf01cf5a1bcb0557eb8c05956d9d3f5fdb720",
+    "records/d13--threshold_only.json": "73b7d8533868865e9c17fe98ed34ead36d91a8e3802f8b3ce49b904c1a816293",
+    "records/d13--candidate.json": "30e53c96779f0381dfc03fd70e4b4368adaeae0be0272003026d956217250d15",
+    "records/d14--deployed.json": "2f5c92170c0f2629c3404a67604948d7d49e21dd599e80f8818aae6ed3fd38ee"
+  },
+  "supplemental_files": [
+    {
+      "artifact": "slots.json",
+      "sha256": "516c2e336d269fd7a77db64b01b9b3f78319a7fe0179f5e2f62b2c0f82a66a49"
+    },
+    {
+      "artifact": "contexts.json",
+      "sha256": "1fcf774f3139627348ed3c606835a38175b3f38f68e1eca829d6b06dcf259752"
+    },
+    {
+      "artifact": "checked-returns.json",
+      "sha256": "59f038bb910c771d213575d49f9e67b154738064b31156b77f906b2ae8d9ea5f"
+    },
+    {
+      "artifact": "w04-projection.json",
+      "sha256": "0e11071ceb671b9cc82e2020bab7d74da866cfbd22990868546ac326a2605471"
+    }
+  ]
+}

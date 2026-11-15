@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "assignment": "W01",
+  "status": "prepared; central review and user smoke pending",
+  "model": {
+    "id": "CohereLabs/tiny-aya-global",
+    "revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+    "architecture": "Cohere2ForCausalLM",
+    "dtype": "bfloat16",
+    "device": "cuda:0",
+    "trust_remote_code": false,
+    "gated_access": "user must already have authorised access; no acceptance automated"
+  },
+  "dependencies": {
+    "proposed_not_runtime_tested": [
+      "transformers==5.22.1",
+      "safetensors==0.8.0",
+      "tqdm==4.70.1",
+      "accelerate==1.15.0"
+    ],
+    "preserve_reported": {
+      "torch": "2.14.1",
+      "numpy": "2.5.3"
+    },
+    "toolkit_import": "verified unmodified pinned source; restricted SafeTune namespace; normal AuditKIT source import"
+  },
+  "seed": 20261103,
+  "generation": {
+    "batch_size": 1,
+    "max_input_tokens": 1024,
+    "max_new_tokens": 128,
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "cache_implementation": "dynamic"
+  },
+  "smoke": {
+    "max_new_tokens": 32,
+    "prompt": "Name two colours in a rainbow."
+  },
+  "calibration": {
+    "extraction_per_class": 8,
+    "development_per_class": 8,
+    "batch_size": 1,
+    "max_input_tokens": 512,
+    "behavior_layer_rule": "inclusive round(14*n/32) through round(18*n/32), clamped to n-1; SafeTune trainer default",
+    "condition_layer_rule": "unique n//4, n//2, 3*n//4, clamped to [1,n-1]",
+    "max_condition_layers": 3,
+    "pool": "last",
+    "behavior_pool": "last_token",
+    "behavior_normalize": false,
+    "alpha": 1.0,
+    "threshold_range": [
+      -1.0,
+      1.0
+    ],
+    "threshold_step": 0.01,
+    "val_frac": 0.5,
+    "max_prefill_forwards": 34,
+    "max_threshold_comparisons": 1206,
+    "generation_calls": 0,
+    "observer_equivalence_prefills": 2
+  },
+  "pilot": {
+    "endpoints": 32,
+    "arms": [
+      "base",
+      "conditional",
+      "always_on"
+    ],
+    "max_generations": 96,
+    "max_generated_tokens": 12288,
+    "max_conditional_prefills": 32
+  },
+  "data": {
+    "diagnostic": "configs/fixtures/w01_diagnostic.jsonl",
+    "extraction": "configs/fixtures/w01_extraction.jsonl",
+    "development": "configs/fixtures/w01_development.jsonl",
+    "rubric": "docs/W01_RUBRIC.md"
+  },
+  "output_dir": "runs",
+  "source_manifest": "configs/w01_sources.json",
+  "runtime_checks_pending": [
+    "gated model/tokenizer access and exact dimensions",
+    "dependency solver and BF16 support",
+    "actual template and no truncation",
+    "decoder block mapping",
+    "real gate observer equivalence",
+    "memory fit, speed, usefulness and safety",
+    "central case-label review"
+  ]
+}

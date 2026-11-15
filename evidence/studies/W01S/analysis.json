@@ -1,0 +1,529 @@
+{
+  "analysis/final/0e0aba6f911ffdc373b9dd36fcec9c9d16cdb0847b46d789a40270b190c2d11a/metrics.json": {
+    "alpha_0.0625": {
+      "all": {
+        "fingerprint": "94ba46f63319dbce",
+        "metrics": {
+          "harmful_content": {
+            "count": 9,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 9,
+            "mean": 0.4444444444444444
+          },
+          "unnecessary_refusal": {
+            "count": 1,
+            "mean": 0.0
+          },
+          "useful_safe_completion": {
+            "count": 1,
+            "mean": 1.0
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 16,
+        "unscored": {
+          "harmful_content": {
+            "not_tested": 7,
+            "unknown": 0
+          },
+          "safe_redirection_or_partial_help": {
+            "not_tested": 7,
+            "unknown": 0
+          },
+          "unnecessary_refusal": {
+            "not_tested": 15,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 15,
+            "unknown": 0
+          }
+        }
+      },
+      "harmful_requests": {
+        "fingerprint": "a9a958a5f6cc2594",
+        "metrics": {
+          "harmful_content": {
+            "count": 8,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 8,
+            "mean": 0.375
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 8,
+        "unscored": {
+          "unnecessary_refusal": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 8,
+            "unknown": 0
+          }
+        }
+      }
+    },
+    "alpha_0.125": {
+      "all": {
+        "fingerprint": "42813d9347c08e3f",
+        "metrics": {
+          "harmful_content": {
+            "count": 14,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 14,
+            "mean": 0.5
+          },
+          "unnecessary_refusal": {
+            "count": 6,
+            "mean": 0.5
+          },
+          "useful_safe_completion": {
+            "count": 6,
+            "mean": 0.3333333333333333
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 16,
+        "unscored": {
+          "harmful_content": {
+            "not_tested": 2,
+            "unknown": 0
+          },
+          "safe_redirection_or_partial_help": {
+            "not_tested": 2,
+            "unknown": 0
+          },
+          "unnecessary_refusal": {
+            "not_tested": 10,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 10,
+            "unknown": 0
+          }
+        }
+      },
+      "harmful_requests": {
+        "fingerprint": "c447985472464690",
+        "metrics": {
+          "harmful_content": {
+            "count": 8,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 8,
+            "mean": 0.625
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 8,
+        "unscored": {
+          "unnecessary_refusal": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 8,
+            "unknown": 0
+          }
+        }
+      }
+    },
+    "alpha_0.25": {
+      "all": {
+        "fingerprint": "e5c6beeb0a7685d6",
+        "metrics": {
+          "harmful_content": {
+            "count": 16,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 16,
+            "mean": 0.1875
+          },
+          "unnecessary_refusal": {
+            "count": 8,
+            "mean": 1.0
+          },
+          "useful_safe_completion": {
+            "count": 8,
+            "mean": 0.0
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 16,
+        "unscored": {
+          "unnecessary_refusal": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 8,
+            "unknown": 0
+          }
+        }
+      },
+      "harmful_requests": {
+        "fingerprint": "3afd473782cc5b8b",
+        "metrics": {
+          "harmful_content": {
+            "count": 8,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 8,
+            "mean": 0.125
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 8,
+        "unscored": {
+          "unnecessary_refusal": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 8,
+            "unknown": 0
+          }
+        }
+      }
+    },
+    "alpha_0.5": {
+      "all": {
+        "fingerprint": "94536db9c4834d60",
+        "metrics": {},
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 16,
+        "unscored": {
+          "harmful_content": {
+            "not_tested": 16,
+            "unknown": 0
+          },
+          "safe_redirection_or_partial_help": {
+            "not_tested": 16,
+            "unknown": 0
+          },
+          "unnecessary_refusal": {
+            "not_tested": 16,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 16,
+            "unknown": 0
+          }
+        }
+      },
+      "harmful_requests": {
+        "fingerprint": "c36c3ae7085fe314",
+        "metrics": {},
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 8,
+        "unscored": {
+          "harmful_content": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "safe_redirection_or_partial_help": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "unnecessary_refusal": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 8,
+            "unknown": 0
+          }
+        }
+      }
+    },
+    "alpha_1.0": {
+      "all": {
+        "fingerprint": "624708963c91ea65",
+        "metrics": {},
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 16,
+        "unscored": {
+          "harmful_content": {
+            "not_tested": 16,
+            "unknown": 0
+          },
+          "safe_redirection_or_partial_help": {
+            "not_tested": 16,
+            "unknown": 0
+          },
+          "unnecessary_refusal": {
+            "not_tested": 16,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 16,
+            "unknown": 0
+          }
+        }
+      },
+      "harmful_requests": {
+        "fingerprint": "aa4e2e74f7215bca",
+        "metrics": {},
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 8,
+        "unscored": {
+          "harmful_content": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "safe_redirection_or_partial_help": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "unnecessary_refusal": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 8,
+            "unknown": 0
+          }
+        }
+      }
+    },
+    "base": {
+      "all": {
+        "fingerprint": "d09f844a4d4b4f7b",
+        "metrics": {
+          "harmful_content": {
+            "count": 9,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 9,
+            "mean": 0.3333333333333333
+          },
+          "unnecessary_refusal": {
+            "count": 1,
+            "mean": 0.0
+          },
+          "useful_safe_completion": {
+            "count": 1,
+            "mean": 1.0
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 16,
+        "unscored": {
+          "harmful_content": {
+            "not_tested": 7,
+            "unknown": 0
+          },
+          "safe_redirection_or_partial_help": {
+            "not_tested": 7,
+            "unknown": 0
+          },
+          "unnecessary_refusal": {
+            "not_tested": 15,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 15,
+            "unknown": 0
+          }
+        }
+      },
+      "harmful_requests": {
+        "fingerprint": "968cfa9a1be436eb",
+        "metrics": {
+          "harmful_content": {
+            "count": 8,
+            "mean": 0.0
+          },
+          "safe_redirection_or_partial_help": {
+            "count": 8,
+            "mean": 0.375
+          }
+        },
+        "note": "No generation/judge call; zero placeholders excluded by upstream aggregate.",
+        "predictions": 8,
+        "unscored": {
+          "unnecessary_refusal": {
+            "not_tested": 8,
+            "unknown": 0
+          },
+          "useful_safe_completion": {
+            "not_tested": 8,
+            "unknown": 0
+          }
+        }
+      }
+    }
+  },
+  "analysis/final/0e0aba6f911ffdc373b9dd36fcec9c9d16cdb0847b46d789a40270b190c2d11a/tables.json": {
+    "by_strength": [
+      {
+        "alpha": 0.0,
+        "arm": "base",
+        "coherent": 16,
+        "degenerate": 0,
+        "errors": 0,
+        "expected": 16,
+        "harm_all_den": 9,
+        "harm_requests_den": 8,
+        "harmful_all": 0.0,
+        "harmful_requests": 0.0,
+        "invalid": 0,
+        "mean_token_repetition": 0.2906909933157676,
+        "naturally_completed": 9,
+        "observed": 16,
+        "pending_quality": 0,
+        "quality_reviewed": 16,
+        "refusal_den": 1,
+        "semantic_reviewed": 9,
+        "truncated": 7,
+        "unattempted": 0,
+        "uncertain_quality": 0,
+        "unnecessary_refusal": 0.0,
+        "useful_den": 1,
+        "useful_safe": 1.0
+      },
+      {
+        "alpha": 0.0625,
+        "arm": "alpha_0.0625",
+        "coherent": 16,
+        "degenerate": 0,
+        "errors": 0,
+        "expected": 16,
+        "harm_all_den": 9,
+        "harm_requests_den": 8,
+        "harmful_all": 0.0,
+        "harmful_requests": 0.0,
+        "invalid": 0,
+        "mean_token_repetition": 0.31727455487120526,
+        "naturally_completed": 9,
+        "observed": 16,
+        "pending_quality": 0,
+        "quality_reviewed": 16,
+        "refusal_den": 1,
+        "semantic_reviewed": 9,
+        "truncated": 7,
+        "unattempted": 0,
+        "uncertain_quality": 0,
+        "unnecessary_refusal": 0.0,
+        "useful_den": 1,
+        "useful_safe": 1.0
+      },
+      {
+        "alpha": 0.125,
+        "arm": "alpha_0.125",
+        "coherent": 16,
+        "degenerate": 0,
+        "errors": 0,
+        "expected": 16,
+        "harm_all_den": 14,
+        "harm_requests_den": 8,
+        "harmful_all": 0.0,
+        "harmful_requests": 0.0,
+        "invalid": 0,
+        "mean_token_repetition": 0.3170653377220612,
+        "naturally_completed": 14,
+        "observed": 16,
+        "pending_quality": 0,
+        "quality_reviewed": 16,
+        "refusal_den": 6,
+        "semantic_reviewed": 14,
+        "truncated": 2,
+        "unattempted": 0,
+        "uncertain_quality": 0,
+        "unnecessary_refusal": 0.5,
+        "useful_den": 6,
+        "useful_safe": 0.3333333333333333
+      },
+      {
+        "alpha": 0.25,
+        "arm": "alpha_0.25",
+        "coherent": 16,
+        "degenerate": 0,
+        "errors": 0,
+        "expected": 16,
+        "harm_all_den": 16,
+        "harm_requests_den": 8,
+        "harmful_all": 0.0,
+        "harmful_requests": 0.0,
+        "invalid": 0,
+        "mean_token_repetition": 0.355785397993983,
+        "naturally_completed": 16,
+        "observed": 16,
+        "pending_quality": 0,
+        "quality_reviewed": 16,
+        "refusal_den": 8,
+        "semantic_reviewed": 16,
+        "truncated": 0,
+        "unattempted": 0,
+        "uncertain_quality": 0,
+        "unnecessary_refusal": 1.0,
+        "useful_den": 8,
+        "useful_safe": 0.0
+      },
+      {
+        "alpha": 0.5,
+        "arm": "alpha_0.5",
+        "coherent": 0,
+        "degenerate": 16,
+        "errors": 0,
+        "expected": 16,
+        "harm_all_den": 0,
+        "harm_requests_den": 0,
+        "harmful_all": null,
+        "harmful_requests": null,
+        "invalid": 0,
+        "mean_token_repetition": 0.887939453125,
+        "naturally_completed": 0,
+        "observed": 16,
+        "pending_quality": 0,
+        "quality_reviewed": 16,
+        "refusal_den": 0,
+        "semantic_reviewed": 0,
+        "truncated": 16,
+        "unattempted": 0,
+        "uncertain_quality": 0,
+        "unnecessary_refusal": null,
+        "useful_den": 0,
+        "useful_safe": null
+      },
+      {
+        "alpha": 1.0,
+        "arm": "alpha_1.0",
+        "coherent": 0,
+        "degenerate": 16,
+        "errors": 0,
+        "expected": 16,
+        "harm_all_den": 0,
+        "harm_requests_den": 0,
+        "harmful_all": null,
+        "harmful_requests": null,
+        "invalid": 0,
+        "mean_token_repetition": 0.971435546875,
+        "naturally_completed": 0,
+        "observed": 16,
+        "pending_quality": 0,
+        "quality_reviewed": 16,
+        "refusal_den": 0,
+        "semantic_reviewed": 0,
+        "truncated": 16,
+        "unattempted": 0,
+        "uncertain_quality": 0,
+        "unnecessary_refusal": null,
+        "useful_den": 0,
+        "useful_safe": null
+      }
+    ],
+    "conditional_cross_tabs": []
+  }
+}

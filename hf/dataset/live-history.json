@@ -1,0 +1,21 @@
+{
+  "decision": "accepted_final_partial_coverage",
+  "contexts_considered": 12,
+  "over_input_limit": 11,
+  "eligible_harmful": 1,
+  "eligible_allowed": 0,
+  "responder_safe_redirections": 3,
+  "responder_harmful": 0,
+  "responder_gates": {
+    "deployed": false,
+    "threshold_only": true,
+    "candidate": false
+  },
+  "receipt_sha256": "e7b0086448416265758e0d16a2f2065c22c21201cf5eede152493ee1f4dc8480",
+  "writers": 6,
+  "responders": 3,
+  "planned_responses": 36,
+  "blocked_responses": 33,
+  "writers_clear": 6,
+  "input_token_limit": 512
+}

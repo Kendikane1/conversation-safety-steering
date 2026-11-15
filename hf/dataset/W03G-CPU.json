@@ -1,0 +1,316 @@
+{
+  "backend": "CPU BF16 SDPA",
+  "completed_writers": 16,
+  "grid": {
+    "1024": {
+      "all": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          39,
+          55
+        ],
+        "complete_joint_families": 2,
+        "measured": 48,
+        "observed_joint": 39,
+        "planned": 64,
+        "planned_families": 8,
+        "technical": 48
+      },
+      "authored": {
+        "attainable_complete_families": [
+          8,
+          8
+        ],
+        "attainable_joint": [
+          16,
+          16
+        ],
+        "complete_joint_families": 8,
+        "measured": 16,
+        "observed_joint": 16,
+        "planned": 16,
+        "planned_families": 8,
+        "technical": 16
+      },
+      "generated": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          23,
+          39
+        ],
+        "complete_joint_families": 2,
+        "measured": 32,
+        "observed_joint": 23,
+        "planned": 48,
+        "planned_families": 8,
+        "technical": 32
+      }
+    },
+    "1536": {
+      "all": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          39,
+          55
+        ],
+        "complete_joint_families": 2,
+        "measured": 48,
+        "observed_joint": 39,
+        "planned": 64,
+        "planned_families": 8,
+        "technical": 48
+      },
+      "authored": {
+        "attainable_complete_families": [
+          8,
+          8
+        ],
+        "attainable_joint": [
+          16,
+          16
+        ],
+        "complete_joint_families": 8,
+        "measured": 16,
+        "observed_joint": 16,
+        "planned": 16,
+        "planned_families": 8,
+        "technical": 16
+      },
+      "generated": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          23,
+          39
+        ],
+        "complete_joint_families": 2,
+        "measured": 32,
+        "observed_joint": 23,
+        "planned": 48,
+        "planned_families": 8,
+        "technical": 32
+      }
+    },
+    "2048": {
+      "all": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          39,
+          55
+        ],
+        "complete_joint_families": 2,
+        "measured": 48,
+        "observed_joint": 39,
+        "planned": 64,
+        "planned_families": 8,
+        "technical": 48
+      },
+      "authored": {
+        "attainable_complete_families": [
+          8,
+          8
+        ],
+        "attainable_joint": [
+          16,
+          16
+        ],
+        "complete_joint_families": 8,
+        "measured": 16,
+        "observed_joint": 16,
+        "planned": 16,
+        "planned_families": 8,
+        "technical": 16
+      },
+      "generated": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          23,
+          39
+        ],
+        "complete_joint_families": 2,
+        "measured": 32,
+        "observed_joint": 23,
+        "planned": 48,
+        "planned_families": 8,
+        "technical": 32
+      }
+    },
+    "3072": {
+      "all": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          39,
+          55
+        ],
+        "complete_joint_families": 2,
+        "measured": 48,
+        "observed_joint": 39,
+        "planned": 64,
+        "planned_families": 8,
+        "technical": 48
+      },
+      "authored": {
+        "attainable_complete_families": [
+          8,
+          8
+        ],
+        "attainable_joint": [
+          16,
+          16
+        ],
+        "complete_joint_families": 8,
+        "measured": 16,
+        "observed_joint": 16,
+        "planned": 16,
+        "planned_families": 8,
+        "technical": 16
+      },
+      "generated": {
+        "attainable_complete_families": [
+          2,
+          5
+        ],
+        "attainable_joint": [
+          23,
+          39
+        ],
+        "complete_joint_families": 2,
+        "measured": 32,
+        "observed_joint": 23,
+        "planned": 48,
+        "planned_families": 8,
+        "technical": 32
+      }
+    },
+    "512": {
+      "all": {
+        "attainable_complete_families": [
+          0,
+          3
+        ],
+        "attainable_joint": [
+          23,
+          39
+        ],
+        "complete_joint_families": 0,
+        "measured": 48,
+        "observed_joint": 23,
+        "planned": 64,
+        "planned_families": 8,
+        "technical": 28
+      },
+      "authored": {
+        "attainable_complete_families": [
+          8,
+          8
+        ],
+        "attainable_joint": [
+          16,
+          16
+        ],
+        "complete_joint_families": 8,
+        "measured": 16,
+        "observed_joint": 16,
+        "planned": 16,
+        "planned_families": 8,
+        "technical": 16
+      },
+      "generated": {
+        "attainable_complete_families": [
+          0,
+          3
+        ],
+        "attainable_joint": [
+          7,
+          23
+        ],
+        "complete_joint_families": 0,
+        "measured": 32,
+        "observed_joint": 7,
+        "planned": 48,
+        "planned_families": 8,
+        "technical": 12
+      }
+    },
+    "768": {
+      "all": {
+        "attainable_complete_families": [
+          1,
+          4
+        ],
+        "attainable_joint": [
+          32,
+          48
+        ],
+        "complete_joint_families": 1,
+        "measured": 48,
+        "observed_joint": 32,
+        "planned": 64,
+        "planned_families": 8,
+        "technical": 40
+      },
+      "authored": {
+        "attainable_complete_families": [
+          8,
+          8
+        ],
+        "attainable_joint": [
+          16,
+          16
+        ],
+        "complete_joint_families": 8,
+        "measured": 16,
+        "observed_joint": 16,
+        "planned": 16,
+        "planned_families": 8,
+        "technical": 16
+      },
+      "generated": {
+        "attainable_complete_families": [
+          1,
+          4
+        ],
+        "attainable_joint": [
+          16,
+          32
+        ],
+        "complete_joint_families": 1,
+        "measured": 32,
+        "observed_joint": 16,
+        "planned": 48,
+        "planned_families": 8,
+        "technical": 24
+      }
+    }
+  },
+  "independent_check_sha256": "c36a968d9309553858421ea95275cece30a37e449c83a77c62dd4bef23e4bdc7",
+  "new_card_judgments": 4,
+  "planned_writers": 24,
+  "private_archive_sha256": "5242390e05e384a26fd48dec74dacb9cd7edecb5672dab0d39d0ce6a41179b23",
+  "private_index_sha256": "58b65c024047d9d1d29b41f0f15ec031b1d40aeb3d89f227f2d534d128aa610e",
+  "reused_card_judgments": 26,
+  "reviewed_projection_sha256": "0e11071ceb671b9cc82e2020bab7d74da866cfbd22990868546ac326a2605471",
+  "scope": "W03G CPU writer subset, repeated follow-up and topic change",
+  "unclaimed_writers": 8,
+  "unique_masked_cards": 30
+}

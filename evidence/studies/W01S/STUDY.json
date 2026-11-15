@@ -1,0 +1,10 @@
+{
+  "study": "W01S",
+  "role": "Development strength sweep",
+  "scope": "98 planned including2 engineering sentinels;256 output budget; quality exclusions retained.",
+  "model": "CohereLabs/tiny-aya-global",
+  "model_revision": "af89d219b53ed9b13b8a4645f9c8028973510324",
+  "evaluation": "Assistant-only judgments; no human-validation claim",
+  "original_counts": "Token counts/gate scores describe private original inputs, not redacted exports",
+  "upstream_terms": "Model-derived content retains upstream restrictions; original research CC BY4 only where rights held."
+}

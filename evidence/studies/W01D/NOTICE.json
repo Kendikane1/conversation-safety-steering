@@ -1,0 +1,8 @@
+{
+  "status": "Reviewed static evidence projection; independent release audit pending",
+  "original_research": "CC BY 4.0 where rights held",
+  "model_derived_text": "Upstream model terms apply; not blanket CC BY",
+  "scoring": "Original assistant-only judgments retained, no rescoring",
+  "counts": "Source token counts refer to unredacted inputs and outputs",
+  "limitations": "Redacted passages prevent full independent semantic rescoring; hashes bind preserved private source. Operational metadata, reversible token IDs and hidden rich state excluded."
+}

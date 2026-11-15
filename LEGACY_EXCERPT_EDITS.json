@@ -1,0 +1,64 @@
+{
+  "path": "hf/dataset/cases.json",
+  "original_sha256": "1e8cfe85cc0405f00286713112f53f60f59383b63857ef29b624c8443a30422e",
+  "public_sha256": "2d89fe2255527f4973e33abeb03364b45fa11ebcc6b774175507ff397f63e393",
+  "basis": "Reconciled every historical answer requiring a response redaction against the frozen reviewed W01D export; labels and numeric measurements unchanged",
+  "edits": [
+    {
+      "case_id": "f04-disallowed",
+      "arm": "base",
+      "old_excerpt_sha256": "e738cb845856b2afe00379b0463813fdf11a401c29e8c9991588e031a948e356",
+      "public_response_sha256": "a8e95fb951232087f439786e94157836f9cdae9c2198de25f45b47d8754d8c49",
+      "original_response_sha256": "48b73af279da303f5f730569a6f7d24ab5276d35a13f20fc394b8b9f7e67444f",
+      "source_row_id": "W01D:diagnose:f04-disallowed--base"
+    },
+    {
+      "case_id": "f04-disallowed",
+      "arm": "always_on",
+      "old_excerpt_sha256": "92a218d8385a4a9b5f6a4e732bb9afd1afb26a6dad94d5e56d162073da75b43b",
+      "public_response_sha256": "ff98b9e5b5af68358d27a99ca36f2285fd22a97c938e1fbf542c5c7138014f96",
+      "original_response_sha256": "8371fb3f39f18cc941e6ca2a50d4c1ac6248fdf4a17f730e26861d38b2f3618f",
+      "source_row_id": "W01D:diagnose:f04-disallowed--always_on"
+    },
+    {
+      "case_id": "f04-disallowed",
+      "arm": "conditional",
+      "old_excerpt_sha256": "e738cb845856b2afe00379b0463813fdf11a401c29e8c9991588e031a948e356",
+      "public_response_sha256": "a8e95fb951232087f439786e94157836f9cdae9c2198de25f45b47d8754d8c49",
+      "original_response_sha256": "48b73af279da303f5f730569a6f7d24ab5276d35a13f20fc394b8b9f7e67444f",
+      "source_row_id": "W01D:diagnose:f04-disallowed--conditional"
+    },
+    {
+      "case_id": "f05-disallowed",
+      "arm": "base",
+      "old_excerpt_sha256": "39d4b3483ed2957d6b9cd54321972d6b6ddd479b6955c467f69717bbac8d921c",
+      "public_response_sha256": "6bf9bb7bf37795261199ae4849f10d2e84ba71c6d7ffd42115a6b3602cb95846",
+      "original_response_sha256": "99948286f5e1db838d075fe0bf6a64b47449b2ed52e8e30800f0dbd3366733bd",
+      "source_row_id": "W01D:diagnose:f05-disallowed--base"
+    },
+    {
+      "case_id": "f05-disallowed",
+      "arm": "conditional",
+      "old_excerpt_sha256": "39d4b3483ed2957d6b9cd54321972d6b6ddd479b6955c467f69717bbac8d921c",
+      "public_response_sha256": "6bf9bb7bf37795261199ae4849f10d2e84ba71c6d7ffd42115a6b3602cb95846",
+      "original_response_sha256": "99948286f5e1db838d075fe0bf6a64b47449b2ed52e8e30800f0dbd3366733bd",
+      "source_row_id": "W01D:diagnose:f05-disallowed--conditional"
+    },
+    {
+      "case_id": "f11-disallowed",
+      "arm": "base",
+      "old_excerpt_sha256": "e53881cc3ae7c66571f63773291af81c3c0f5b31310e65fa61733dcb8773c16e",
+      "public_response_sha256": "8fcb7b2061b27b68f2125068ef8dd4562940689bdcf80ad0e8c7b40cab8089d3",
+      "original_response_sha256": "5f7463c30f9962b2c38256b23225d8eeda72f515b0595706ccef7e3ac9127cb1",
+      "source_row_id": "W01D:diagnose:f11-disallowed--base"
+    },
+    {
+      "case_id": "f11-disallowed",
+      "arm": "conditional",
+      "old_excerpt_sha256": "e53881cc3ae7c66571f63773291af81c3c0f5b31310e65fa61733dcb8773c16e",
+      "public_response_sha256": "8fcb7b2061b27b68f2125068ef8dd4562940689bdcf80ad0e8c7b40cab8089d3",
+      "original_response_sha256": "5f7463c30f9962b2c38256b23225d8eeda72f515b0595706ccef7e3ac9127cb1",
+      "source_row_id": "W01D:diagnose:f11-disallowed--conditional"
+    }
+  ]
+}
